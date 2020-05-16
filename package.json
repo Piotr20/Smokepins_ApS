@@ -1,0 +1,19 @@
+{
+  "name": "smokepins_aps",
+  "version": "1.0.0",
+  "description": "A package in case we need any frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piotr20/Smokepins_ApS.git"
+  },
+  "author": "Piotr Pospiech, Ida skjodt Olesen, Oliver Jutzler, Daniel Berger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piotr20/Smokepins_ApS/issues"
+  },
+  "homepage": "https://github.com/Piotr20/Smokepins_ApS#readme"
+}
