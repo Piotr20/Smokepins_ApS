@@ -18,7 +18,18 @@
         grid-column: span 3;
         max-width: 95vw;
     }
+}
 
+#container img{
+    overflow: hidden;
+}
+
+#container div:hover{
+    cursor: pointer;
+}
+
+#container div:hover > img{
+    opacity: 0.85;
 }
 
 .imgtxt{
@@ -67,11 +78,12 @@
     height: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    opacity: 1;
+    transition: 0.3s;
 }
 
 #discovernav{
-    margin: 15% 0 5%;
+    margin: 5% 0 3%;
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -82,10 +94,35 @@ ul{
     width: 40%;
     display: flex;
     justify-content: space-between;
-    font-family: "active";
+    font-family: poppins, sans-serif;
     list-style-type: none;
 }
 
 ul:hover{
     cursor: pointer;
+}
+
+#discoverhead{
+    width: 100%;
+    margin: 7% 0 2% 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #36454F;
+}
+
+#discoverhead h1{
+    font-family: active;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#discoverp{
+    width: 70%;
+    display: flex;
+    margin: 0 15%;
+    justify-content: center;
+    text-align: center;
+    color: #36454F;
+    font-family: poppins, sans-serif;
 }
