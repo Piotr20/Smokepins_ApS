@@ -18,10 +18,6 @@
         grid-column: span 3;
         max-width: 95vw;
     }
-
-    #discoverp p{
-        width: 90%;
-    }
 }
 
 #container img{
@@ -87,7 +83,7 @@
 }
 
 #discovernav{
-    margin: 10% 0 5%;
+    margin: 5% 0 3%;
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -122,8 +118,9 @@ ul:hover{
 }
 
 #discoverp{
-    width: 100%;
+    width: 70%;
     display: flex;
+    margin: 0 15%;
     justify-content: center;
     text-align: center;
     color: #36454F;

@@ -85,24 +85,29 @@
                          src="https://thumbs-prod.si-cdn.com/7UodV-s6j5aEVfrYwg5KQ26oBLY=/fit-in/1600x0/https://public-media.si-cdn.com/filer/d6/93/d6939718-4e41-44a8-a8f3-d13648d2bcd0/c3npbx.jpg"
                          alt=""><div class="imgtxt"><h3>Delicious smoked bacon</h3><p>February 7 2020</p></div></div>
                <div class="grid7"><img src="https://static.tvno.nu/11150748?forceFit=0&height=760&quality=50&width=1350"
-                         alt=""><div class="imgtxt"><h3>Delicious smoked bacon</h3><p>February 7 2020</p></div></div>
+                         alt=""><div class="imgtxt"><h3>Løvens Hule - Round Two</h3><p>February 20 2020</p></div></div>
           </div>
 
           <script>
                $(document).ready(function () {
+                    $("#all").click(function () {
+                         $(".grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7").css('display',
+                              'block');
+                    });
+
                     $("#guides").click(function () {
                          $(".grid3, .grid4, .grid5").css('display', 'block');
                          $(".grid1, .grid2, .grid6, .grid7").css('display', 'none');
                     });
 
                     $("#recipes").click(function () {
-                         $(".grid1, .grid2").css('display', 'block');
-                         $(".grid3, .grid4, .grid5, .grid6, .grid7").css('display', 'none');
+                         $(".grid1, .grid6").css('display', 'block');
+                         $(".grid3, .grid4, .grid5, .grid2, .grid7").css('display', 'none');
                     });
 
-                    $("#all").click(function () {
-                         $(".grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7").css('display',
-                              'block');
+                    $("#news").click(function () {
+                         $(".grid2, .grid7").css('display', 'block');
+                         $(".grid3, .grid4, .grid5, .grid6, .grid1").css('display', 'none');
                     });
                });
           </script>
