@@ -1,0 +1,274 @@
+@import '../Colours/colours.scss';
+@import '../Fonts/fonts.scss';
+
+//importing colours and fonts just to organise it better
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     background-color: $beidge;
+}
+
+//Reset
+
+header {
+     width: 100%;
+     height: 7vh;
+     background-color: $charcoal;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 99;
+
+
+     &>a:nth-of-type(1) {
+          color: $beidge;
+          margin-left: 7%;
+          cursor: pointer;
+          height: 100%;
+          line-height: 7vh;
+     }
+
+     &>i {
+          color: $beidge;
+          font-size: 1.5em;
+          margin-right: 7%;
+          display: block;
+     }
+
+     nav,
+     .icons_nav {
+          display: none;
+     }
+
+     #slider {
+          position: fixed;
+          z-index: 100;
+          width: 100%;
+          height: 100vh;
+          background-color: $charcoal;
+          left: 100%;
+          top: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          transition: left .5s ease;
+
+
+          a {
+               color: $beidge;
+               text-decoration: none;
+               font-size: 1.6em;
+          }
+
+
+
+
+          &.active_slider {
+               left: 0%;
+
+
+               &>i {
+                    position: absolute;
+                    top: 2%;
+                    right: 6%;
+                    font-size: 1.5em;
+                    color: $beidge;
+               }
+          }
+     }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+     header {
+          &>a:nth-of-type(1) {
+               margin-left: 4%;
+          }
+
+          nav,
+          .icons_nav {
+               display: block;
+
+          }
+
+          .icons_nav {
+               margin-right: 4%;
+               width: 150px;
+               height: 100%;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+
+               a {
+                    cursor: pointer;
+               }
+
+               a:first-of-type {
+                    display: flex;
+                    align-items: center;
+
+                    p {
+                         font-size: .8em;
+                         padding-left: 5px;
+                    }
+               }
+
+               i {
+                    font-size: 1.5em;
+
+               }
+          }
+
+          .fa-bars {
+               display: none;
+          }
+
+          &>i:hover {
+               color: red;
+          }
+
+          a {
+               color: $beidge;
+               text-decoration: none;
+               font-family: $poppins;
+
+          }
+
+          nav {
+               height: 100%;
+               width: 600px;
+               display: flex;
+               align-items: center;
+               justify-content: space-around;
+
+               &>ul {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    list-style: none;
+                    background-color: $charcoal;
+                    color: $beidge;
+
+
+
+
+                    li {
+                         height: 100%;
+                         width: 100px;
+                         line-height: 7vh;
+                         padding-left: 20px;
+
+
+
+                    }
+
+                    //drop down menu in discover
+                    &>li:nth-of-type(3) {
+                         background-color: $charcoal;
+                         color: $beidge;
+                         align-self: flex-start;
+                         line-height: 7vh;
+                         transition: all .2s ease;
+
+                         ul {
+                              width: 150%;
+                              height: 100px;
+                              list-style: none;
+                              background-color: $charcoal;
+                              color: $beidge;
+                              display: flex;
+                              flex-direction: column;
+                              justify-content: space-around;
+                              transform: translateX(-12.5%);
+                              opacity: 0;
+
+                              transition: all .2s ease;
+
+
+                              li {
+                                   line-height: normal;
+                                   padding-left: 20px;
+                                   width: 100%;
+                                   color: $beidge;
+                                   display: flex;
+                                   align-items: center;
+
+                                   &:hover {
+                                        background-color: $beidge;
+                                        color: $charcoal;
+                                   }
+
+                                   &:hover {
+                                        a {
+                                             color: $charcoal;
+                                        }
+                                   }
+
+
+                              }
+                         }
+                    }
+
+                    &>li:nth-of-type(3):hover {
+                         ul {
+                              opacity: 1;
+                         }
+                    }
+               }
+          }
+
+          #slider {
+               display: none;
+          }
+
+     }
+}
+
+@media screen and (min-width: 1600px) {
+     nav {
+          height: 100%;
+          width: 600px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+
+          &>ul {
+
+
+               &>li:nth-of-type(3) {
+
+                    ul {
+                         width: 200%;
+                         height: 120px;
+                         list-style: none;
+                         background-color: $charcoal;
+                         color: $beidge;
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: space-around;
+                         transform: translateX(-12.5%);
+
+                         li {
+                              line-height: normal;
+                              padding-left: 20%;
+
+
+
+                         }
+                    }
+               }
+          }
+     }
+}
