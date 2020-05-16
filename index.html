@@ -10,12 +10,18 @@
           integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
      <title>Smokepins</title>
      <link rel="stylesheet" href="SASS/Styles_nav/styles_nav.css">
+     <link rel="stylesheet" href="SASS/Styles_frontpage/frontpage.css">
 </head>
 
 <body>
      <div id="wrapper">
           <header>
+               <span> <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+               </span>
+
                <a href="">Logo</a>
+               <a href=""><i class="fas fa-shopping-cart"></i></a>
                <nav>
                     <ul>
                          <li><a href="">Shop</a></li>
@@ -37,17 +43,40 @@
                     </a>
                     <a href=""><i class="fas fa-shopping-cart"></i></a>
                </div>
-               <i class="fas fa-bars"></i>
+
                <div id="slider">
-                    <i class="fas fa-times"></i>
-                    <a href="">Shop</a>
-                    <a href="">Our story</a>
-                    <a href="">Discover</a>
-                    <a href="">Contact</a>
-                    <a href="">Find store</a>
-                    <a href="">Cart</a>
+                    <ul>
+                         <li><a href="">Shop</a></li>
+                         <li><a href="">Our story</a></li>
+                         <li><a href="">Discover</a>
+                              <ul>
+                                   <li><a href="">Guides</a></li>
+                                   <li><a href="">Recipies</a></li>
+                                   <li><a href="">News</a></li>
+                              </ul>
+                         </li>
+                         <li><a href="">Contact</a></li>
+                         <li><a href="">Find store</a></li>
+                         <li><a href="">Cart</a></li>
+                    </ul>
                </div>
           </header>
+          <section id="video_wrapper">
+               <img src="Media/Images/Big_image_front.jpg" alt="">
+          </section>
+          <article class="explanation">
+               <div class="placeholder">
+                    <img src="" alt="">
+               </div>
+               <div class="article_text">
+                    <h2>- Whar are smokepins? -</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio recusandae accusantium rem
+                         quidem, quas perspiciatis in fuga. Expedita, voluptatibus architecto.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio recusandae accusantium rem
+                         quidem, quas perspiciatis in fuga. Expedita, voluptatibus architecto.</p>
+                    <a href="">Read more</a>
+               </div>
+          </article>
           <footer></footer>
      </div>
      <script src="Js/scripts_nav.js"></script>
