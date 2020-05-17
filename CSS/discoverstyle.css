@@ -1,66 +1,93 @@
-#container{
+#container {
     margin: 0 2.5%;
     padding: 0;
     width: 95%;
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr) );
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
     grid-template-rows: repeat(50, 40vh);
     grid-row-gap: 15vh;
     grid-column-gap: 3vw;
 }
 
 .current {
-    text-decoration: underline;
+    position: relative;
 }
 
-@media only screen and (max-width : 1024px){
-    #container div{
+.current:before {
+    color: #36454f;
+    opacity: 1;
+    content: "-";
+    font-family: active;
+    font-size: 50px;
+    position: absolute;
+    transform: translateY(-55%);
+    top: 50%;
+    left: -18px;
+}
+
+
+.current:after {
+    color: #36454f;
+    opacity: 1;
+    content: "-";
+    font-family: active;
+    font-size: 50px;
+    position: absolute;
+    transform: translateY(-55%);
+    top: 50%;
+    right: -20px;
+}
+
+
+
+@media only screen and (max-width : 1024px) {
+    #container div {
         grid-column: span 3;
         max-width: 95vw;
     }
 }
 
-#container img{
+#container img {
     overflow: hidden;
 }
 
-#container div:hover{
+#container div:hover {
     cursor: pointer;
 }
 
-#container div:hover > img{
+#container div:hover>img {
     opacity: 0.85;
 }
 
-.imgtxt{
+.imgtxt {
     background-color: #FFFCF5;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     font-family: poppins, sans-serif;
     color: #36454F;
 }
 
 .imgtxt h3,
-.imgtxt p{
+.imgtxt p {
     margin-left: 1vw;
     margin-top: -1%;
 }
 
-.imgtxt h3{
+.imgtxt h3 {
     padding: 1% 0;
 }
 
-.imgtxt p{
+.imgtxt p {
     padding-bottom: 1%;
     font-size: 14px;
 }
 
-.grid1{
+.grid1 {
     grid-column: span 2;
 }
 
-.grid7{
+.grid7 {
     grid-column: span 2;
 }
 
@@ -72,7 +99,7 @@
 .grid6 img,
 .grid7 img,
 .grid8 img,
-.grid9 img{
+.grid9 img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -82,7 +109,7 @@
     transition: 0.3s;
 }
 
-#discovernav{
+nav#discovernav {
     margin: 5% 0 3%;
     display: flex;
     justify-content: center;
@@ -90,19 +117,8 @@
 }
 
 
-ul{
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    font-family: poppins, sans-serif;
-    list-style-type: none;
-}
 
-ul:hover{
-    cursor: pointer;
-}
-
-#discoverhead{
+#discoverhead {
     width: 100%;
     margin: 7% 0 2% 0;
     display: flex;
@@ -111,13 +127,13 @@ ul:hover{
     color: #36454F;
 }
 
-#discoverhead h1{
+#discoverhead h1 {
     font-family: active;
     font-size: 50px;
     font-weight: 500;
 }
 
-#discoverp{
+#discoverp {
     width: 70%;
     display: flex;
     margin: 0 15%;
@@ -125,4 +141,50 @@ ul:hover{
     text-align: center;
     color: #36454F;
     font-family: poppins, sans-serif;
+}
+
+#discovernav>ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-family: poppins, sans-serif;
+    list-style-type: none;
+}
+
+#discovernav>ul li {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#discovernav>ul li span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+#discovernav>ul li:hover span::before {
+    color: #36454f;
+    opacity: 1;
+    content: "-";
+    font-family: active;
+    font-size: 50px;
+    position: absolute;
+    transform: translateY(-55%);
+    top: 50%;
+    left: -18px;
+}
+
+#discovernav>ul li:hover span::after {
+    color: #36454f;
+    opacity: 1;
+    content: "-";
+    font-family: active;
+    font-size: 50px;
+    position: absolute;
+    transform: translateY(-55%);
+    top: 50%;
+    right: -20px;
 }

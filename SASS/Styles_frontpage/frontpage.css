@@ -103,7 +103,7 @@ article.explanation .article_text a:hover {
   font-weight: 600;
   width: 75%;
   margin: 0 auto;
-  padding-top: 5%;
+  padding-top: 7%;
 }
 
 #How_to_start a {
@@ -177,7 +177,7 @@ article.explanation .article_text a:hover {
   #How_to_start p {
     font-size: 1.1em;
     font-weight: 600;
-    width: 50%;
+    width: 35%;
     margin: 0 auto;
     padding-top: 3%;
   }
@@ -185,7 +185,7 @@ article.explanation .article_text a:hover {
     height: 45px;
     width: 180px;
     display: block;
-    margin-top: 10%;
+    margin-top: 7%;
     color: #FFFCF5;
     border-radius: 50px;
     line-height: 45px;
