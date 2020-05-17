@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
     grid-template-rows: repeat(50, 40vh);
-    grid-row-gap: 15vh;
+    grid-row-gap: 18vh;
     grid-column-gap: 3vw;
 }
 
@@ -66,10 +66,12 @@
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     font-family: poppins, sans-serif;
     color: #36454F;
+    margin-top: -1vh;
+    padding-top: 0.1em;
 }
 
 .imgtxt h3,
-.imgtxt p {
+.imgtxt p:nth-of-type(2) {
     margin-left: 1vw;
     margin-top: -1%;
 }
@@ -78,9 +80,19 @@
     padding: 1% 0;
 }
 
-.imgtxt p {
+.imgtxt p:nth-of-type(2) {
     padding-bottom: 0.5vw;
     font-size: 14px;
+}
+
+.imgtxt p:nth-of-type(1){
+    color: #FFFCF5;
+    width: 5em;
+    background-color: #36454F;
+    text-align: center;
+    font-size: small;
+    margin: 10px 0 5px 1vw;
+    padding: 0.2em;
 }
 
 .grid1 {
