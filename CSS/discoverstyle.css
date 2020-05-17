@@ -7,6 +7,7 @@ a {
     color: #36454F;
 }
 
+/* ---- Content ---- */
 #container {
     margin: 0 2.5%;
     padding: 0;
@@ -16,35 +17,6 @@ a {
     grid-template-rows: repeat(50, 40vh);
     grid-row-gap: 18vh;
     grid-column-gap: 3vw;
-}
-
-.current {
-    position: relative;
-}
-
-.current:before {
-    color: #36454f;
-    opacity: 1;
-    content: "-";
-    font-family: active;
-    font-size: 50px;
-    position: absolute;
-    transform: translateY(-52.5%);
-    top: 50%;
-    left: -18px;
-}
-
-
-.current:after {
-    color: #36454f;
-    opacity: 1;
-    content: "-";
-    font-family: active;
-    font-size: 50px;
-    position: absolute;
-    transform: translateY(-52.5%);
-    top: 50%;
-    right: -20px;
 }
 
 #container img {
@@ -95,6 +67,36 @@ a {
     padding: 0.2em;
 }
 
+/* ----- Hover effect ----- */
+.current {
+    position: relative;
+}
+
+.current:before {
+    color: #36454f;
+    opacity: 1;
+    content: "-";
+    font-family: active;
+    font-size: 50px;
+    position: absolute;
+    transform: translateY(-52.5%);
+    top: 50%;
+    left: -18px;
+}
+
+.current:after {
+    color: #36454f;
+    opacity: 1;
+    content: "-";
+    font-family: active;
+    font-size: 50px;
+    position: absolute;
+    transform: translateY(-52.5%);
+    top: 50%;
+    right: -20px;
+}
+
+/* ----- Grid ----- */
 .grid1 {
     grid-column: span 2;
 }
@@ -121,6 +123,7 @@ a {
     transition: 0.3s;
 }
 
+/* ----- Discover navigation ----- */
 nav#discovernav {
     margin: 5% 0 3%;
     display: flex;
@@ -128,8 +131,6 @@ nav#discovernav {
     width: 100vw;
     color: #36454F;
 }
-
-
 
 #discoverhead {
     width: 100%;
