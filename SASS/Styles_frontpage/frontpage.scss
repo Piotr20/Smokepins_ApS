@@ -74,7 +74,7 @@ article.explanation {
 
 #icon_container {
      width: 100%;
-     height: 100vh;
+     height: 130vh;
      background-color: $yellow;
      padding-top: 5%;
 
@@ -83,6 +83,49 @@ article.explanation {
           font-weight: 500;
           font-size: 2em;
           text-align: center;
+     }
+
+     .icon_wrapper {
+          width: 100%;
+          height: 75%;
+
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+
+
+          &>div {
+               width: 40%;
+               height: 50%;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               margin-top: 10%;
+               background-color: $beidge;
+               border-radius: 30px;
+               font-family: $poppins;
+
+               &>div {
+                    width: 100%;
+                    height: 40%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    object {
+                         width: 90%;
+                         height: 90%;
+                    }
+               }
+
+               p {
+                    padding-top: 10%;
+                    width: 80%;
+                    font-size: 12px;
+                    text-align: center;
+               }
+
+          }
      }
 
 
@@ -177,6 +220,39 @@ article.explanation {
                     }
                }
           }
+     }
+
+     #icon_container {
+
+          h2 {
+               font-size: 3em;
+          }
+
+          .icon_wrapper {
+               width: 100%;
+               height: 70%;
+               margin-top: 0;
+               display: flex;
+               justify-content: space-around;
+
+
+               &>div {
+                    width: 20%;
+                    height: 85%;
+                    margin-top: 5%;
+
+                    h3 {
+                         font-size: 1.8em;
+                    }
+
+                    p {
+                         font-size: .9em;
+                    }
+
+               }
+          }
+
+
      }
 
      #How_to_start {
