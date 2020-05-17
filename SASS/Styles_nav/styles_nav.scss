@@ -28,12 +28,14 @@ header {
      z-index: 99;
 
 
-     &>a:nth-of-type(1) {
-          color: $beidge;
-          cursor: pointer;
-          height: 100%;
-          line-height: 7vh;
 
+     &>a:nth-of-type(1) {
+          cursor: pointer;
+          width: 100px;
+
+          img {
+               width: 95%;
+          }
      }
 
      &>a:nth-of-type(2) {
@@ -201,7 +203,7 @@ header {
                display: flex;
                align-items: center;
                justify-content: space-around;
-               margin-right: -150px;
+               margin-left: 25px;
 
                &>ul {
                     width: 100%;
