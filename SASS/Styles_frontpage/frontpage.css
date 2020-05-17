@@ -41,7 +41,7 @@ article.explanation .article_text p {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: 600;
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   padding-top: 5%;
 }
@@ -59,9 +59,73 @@ article.explanation .article_text a {
   line-height: 25px;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
 }
 
 article.explanation .article_text a:hover {
+  background-color: #FFFCF5;
+  color: #36454f;
+}
+
+#icon_container {
+  width: 100%;
+  height: 100vh;
+  background-color: #FFF3D5;
+  padding-top: 5%;
+}
+
+#icon_container h2 {
+  font-family: "active", sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  text-align: center;
+}
+
+#How_to_start {
+  width: 100%;
+  height: 40vh;
+}
+
+#How_to_start h2 {
+  font-family: "active", sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 15%;
+}
+
+#How_to_start p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+#How_to_start a {
+  text-decoration: none;
+  background-color: #36454f;
+  height: 30px;
+  width: 115px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12%;
+  color: #FFFCF5;
+  border-radius: 15px;
+  line-height: 30px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+#How_to_start a:hover {
   background-color: #FFFCF5;
   color: #36454f;
 }
@@ -93,12 +157,9 @@ article.explanation .article_text a:hover {
     padding-top: 5%;
   }
   article.explanation .article_text a {
-    text-decoration: none;
-    background-color: #36454f;
     height: 45px;
     width: 180px;
     display: block;
-    margin: 0 auto;
     margin-top: 15%;
     color: #FFFCF5;
     border-radius: 50px;
@@ -106,6 +167,31 @@ article.explanation .article_text a:hover {
     font-size: 1.1em;
   }
   article.explanation .article_text a:hover {
+    border: 1px solid #36454f;
+  }
+  #How_to_start h2 {
+    font-weight: 500;
+    font-size: 3em;
+    margin-top: 5%;
+  }
+  #How_to_start p {
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+  #How_to_start a {
+    height: 45px;
+    width: 180px;
+    display: block;
+    margin-top: 10%;
+    color: #FFFCF5;
+    border-radius: 50px;
+    line-height: 45px;
+    font-size: 1.1em;
+  }
+  #How_to_start a:hover {
     border: 1px solid #36454f;
   }
 }

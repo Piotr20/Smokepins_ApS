@@ -122,15 +122,6 @@ header {
 
           &.active_slider {
                right: 0;
-
-
-               &>i {
-                    position: absolute;
-                    top: 2%;
-                    right: 6%;
-                    font-size: 1.5em;
-                    color: $beidge;
-               }
           }
      }
 }
@@ -148,10 +139,11 @@ header {
                cursor: pointer;
                height: 100%;
                line-height: 7vh;
-
-
                display: none;
+          }
 
+          &>span {
+               display: none;
           }
 
           nav,

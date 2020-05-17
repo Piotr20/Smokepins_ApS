@@ -124,14 +124,6 @@ header #slider.active_slider {
   right: 0;
 }
 
-header #slider.active_slider > i {
-  position: absolute;
-  top: 2%;
-  right: 6%;
-  font-size: 1.5em;
-  color: #FFFCF5;
-}
-
 @media screen and (min-width: 1024px) {
   header > a:nth-of-type(1) {
     margin-left: 4%;
@@ -141,6 +133,9 @@ header #slider.active_slider > i {
     cursor: pointer;
     height: 100%;
     line-height: 7vh;
+    display: none;
+  }
+  header > span {
     display: none;
   }
   header nav,

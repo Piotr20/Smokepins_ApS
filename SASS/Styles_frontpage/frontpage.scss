@@ -43,7 +43,7 @@ article.explanation {
                font-family: $poppins;
                font-size: 12px;
                font-weight: 600;
-               width: 80%;
+               width: 75%;
                margin: 0 auto;
                padding-top: 5%;
           }
@@ -60,11 +60,76 @@ article.explanation {
                border-radius: 10px;
                line-height: 25px;
                transition: all .5s ease;
+               text-transform: uppercase;
+               font-family: $poppins;
+               font-size: 12px;
 
                &:hover {
                     background-color: $beidge;
                     color: $charcoal;
                }
+          }
+     }
+}
+
+#icon_container {
+     width: 100%;
+     height: 100vh;
+     background-color: $yellow;
+     padding-top: 5%;
+
+     h2 {
+          font-family: $active;
+          font-weight: 500;
+          font-size: 2em;
+          text-align: center;
+     }
+
+
+}
+
+#How_to_start {
+     width: 100%;
+     height: 40vh;
+
+     h2 {
+          font-family: $active;
+          font-weight: 500;
+          font-size: 2em;
+          text-align: center;
+          margin-top: 15%;
+     }
+
+     p {
+          font-family: $poppins;
+          text-align: center;
+          font-size: 12px;
+          font-weight: 600;
+          width: 75%;
+          margin: 0 auto;
+          padding-top: 5%;
+     }
+
+     a {
+          text-decoration: none;
+          background-color: $charcoal;
+          height: 30px;
+          width: 115px;
+          display: block;
+          margin: 0 auto;
+          margin-top: 12%;
+          color: $beidge;
+          border-radius: 15px;
+          line-height: 30px;
+          transition: all .5s ease;
+          text-align: center;
+          text-transform: uppercase;
+          font-family: $poppins;
+          font-size: 12px;
+
+          &:hover {
+               background-color: $beidge;
+               color: $charcoal;
           }
      }
 }
@@ -97,12 +162,10 @@ article.explanation {
                }
 
                a {
-                    text-decoration: none;
-                    background-color: $charcoal;
+
                     height: 45px;
                     width: 180px;
                     display: block;
-                    margin: 0 auto;
                     margin-top: 15%;
                     color: $beidge;
                     border-radius: 50px;
@@ -112,6 +175,38 @@ article.explanation {
                     &:hover {
                          border: 1px solid $charcoal;
                     }
+               }
+          }
+     }
+
+     #How_to_start {
+          h2 {
+               font-weight: 500;
+               font-size: 3em;
+               margin-top: 5%;
+          }
+
+          p {
+               font-size: 1.1em;
+               font-weight: 600;
+               width: 50%;
+               margin: 0 auto;
+               padding-top: 3%;
+          }
+
+          a {
+
+               height: 45px;
+               width: 180px;
+               display: block;
+               margin-top: 10%;
+               color: $beidge;
+               border-radius: 50px;
+               line-height: 45px;
+               font-size: 1.1em;
+
+               &:hover {
+                    border: 1px solid $charcoal;
                }
           }
      }
