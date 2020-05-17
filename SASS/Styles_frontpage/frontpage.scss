@@ -178,6 +178,9 @@ article.explanation {
 }
 
 #how_start {
+     position: relative;
+     overflow: hidden;
+
      .Steps {
           width: 100%;
           height: 90vh;
@@ -254,6 +257,52 @@ article.explanation {
                }
           }
 
+     }
+
+
+
+     .line_box {
+          position: absolute;
+          top: 0;
+          opacity: 0;
+          width: 100%;
+          height: 100vh;
+
+
+
+     }
+
+     #first {
+          opacity: 1;
+          top: 43vh;
+          left: 22vw;
+
+          object {
+               height: 60%;
+          }
+
+     }
+
+     #secend {
+          opacity: 1;
+          top: 150vh;
+          left: 24vw;
+
+          object {
+               height: 60%;
+
+          }
+     }
+
+     #third {
+          opacity: 1;
+          top: 150vh;
+          left: 24vw;
+
+          object {
+               height: 60%;
+
+          }
      }
 }
 
@@ -338,6 +387,8 @@ article.explanation {
 
 
      #how_start {
+
+
           .How_to_start {
                h2 {
                     font-weight: 500;
@@ -420,6 +471,8 @@ article.explanation {
                     }
                }
           }
+
+
      }
 
 
