@@ -1,8 +1,10 @@
 #map {
     position: absolute;
     top: 33vh;
-    bottom: 0vh;
-    width: 100%;
+    bottom: 5vh;
+    width: 95%;
+    margin: 0 2.5%;
+    border-radius: 10px;
 }
 
 #storelistwrapper {
