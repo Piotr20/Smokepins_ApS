@@ -130,6 +130,7 @@ nav#discovernav {
 h2 {
     font-weight: bold;
     font-size: 2em;
+    padding-top: 10px;
 }
 
 h3 {
@@ -141,7 +142,7 @@ h3 {
 
 .intro p:nth-of-type(1) {
     float: right;
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 .intro p:nth-of-type(2) {
