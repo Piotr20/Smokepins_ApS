@@ -10,6 +10,9 @@
           integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
      <title>Find-store</title>
      <link rel="stylesheet" href="../SASS/Styles_nav/styles_nav.css">
+     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/findstorestyle.css">
 </head>
 
 <body>
@@ -48,8 +51,39 @@
                     <a href="">Cart</a>
                </div>
           </header>
+          <div id="discoverhead">
+               <h1>-&nbsp; Retailers &nbsp;-</h1>
+          </div>
+          <div id="map">
+          </div>
           <footer></footer>
      </div>
+     <script>
+          mapboxgl.accessToken = 'pk.eyJ1Ijoib2xpdmVyZG90Y29tIiwiYSI6ImNrN2QxNnQ1dzBzZGoza21yczZ5ZGZ3cHQifQ.VB7QxYT6bR1uh62fhva2Dw'; // replace this with your access token
+          var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/oliverdotcom/ckaar0fkf0ikl1iqq6iyly6ls', // replace this with your style URL
+            center: [10.196, 56.172],
+            zoom: 10.7
+          });
+          // code from the next step will go here
+          map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['smokepins-retailers-tile'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h3>' + feature.properties.name + '</h3><p>' + feature.properties.desc + '</p>')
+    .addTo(map);
+});
+          </script>
      <script src="Js/scripts_nav.js"></script>
 </body>
 
