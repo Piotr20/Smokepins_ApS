@@ -171,11 +171,28 @@ h3 {
 
 
 
-/* -------Media Queries------ */
+/* ------------ Media Queries ------------ */
 
 @media only screen and (max-width : 1024px) {
     #container div {
         grid-column: span 3;
         max-width: 95vw;
+    }
+
+    nav#discovernav {
+        margin: 5% 0 3% -35%;
+        display: flex;
+        justify-content: center;
+        width: 175vw;
+    }
+
+    #discoverp {
+        width: 80%;
+        display: flex;
+        margin: 0 10%;
+        justify-content: center;
+        text-align: center;
+        color: #36454F;
+        font-family: poppins, sans-serif;
     }
 }
