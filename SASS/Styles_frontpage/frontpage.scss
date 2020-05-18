@@ -259,51 +259,12 @@ article.explanation {
 
      }
 
-
-
      .line_box {
-          position: absolute;
-          top: 0;
-          opacity: 0;
-          width: 100%;
-          height: 100vh;
-
-
-
+          display: none;
      }
 
-     #first {
-          opacity: 1;
-          top: 43vh;
-          left: 22vw;
 
-          object {
-               height: 60%;
-          }
 
-     }
-
-     #secend {
-          opacity: 1;
-          top: 150vh;
-          left: 24vw;
-
-          object {
-               height: 60%;
-
-          }
-     }
-
-     #third {
-          opacity: 1;
-          top: 150vh;
-          left: 24vw;
-
-          object {
-               height: 60%;
-
-          }
-     }
 }
 
 @media only screen and (min-width:1024px) {
@@ -422,8 +383,17 @@ article.explanation {
           }
 
           .Steps {
-               padding-top: 20%;
-               height: 110vh;
+               padding-top: 0;
+               height: 70vh;
+
+               &.Steps:nth-of-type(3),
+               &.Steps:nth-of-type(4) {
+                    height: 120vh;
+               }
+
+               &.Steps:nth-of-type(4) {
+                    height: 70vh;
+               }
 
                .img_container {
                     display: flex;
@@ -470,8 +440,58 @@ article.explanation {
                          border: 1px solid $charcoal;
                     }
                }
+
           }
 
+          .line_box {
+               position: absolute;
+               top: 0;
+               opacity: 0;
+               width: 100%;
+               height: 100vh;
+               display: flex;
+               justify-content: center;
+               transform: translateX(-50%);
+
+
+
+          }
+
+          #first {
+               opacity: 1;
+               top: 41.5vh;
+               left: 37.5vw;
+               height: 25vh;
+
+               object {
+                    height: 100%;
+               }
+
+          }
+
+          #secend {
+               opacity: 1;
+               top: 110vh;
+               left: 51vw;
+               height: 50vh;
+
+               object {
+
+                    height: 100%;
+               }
+          }
+
+          #third {
+               opacity: 1;
+               top: 205vh;
+               left: 46.5vw;
+               height: 50vh;
+
+               object {
+                    height: 100%;
+
+               }
+          }
 
      }
 
