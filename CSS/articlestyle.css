@@ -2,45 +2,11 @@ body {
     font-family: poppins;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* --Discover navigation-- */
-
-.current {
-    position: relative;
-}
-
-.current:before {
-    color: #36454f;
-    opacity: 1;
-    content: "-";
-    font-family: active;
-    font-size: 50px;
-    position: absolute;
-    transform: translateY(-55%);
-    top: 50%;
-    left: -18px;
-}
-
-
-.current:after {
-    color: #36454f;
-    opacity: 1;
-    content: "-";
-    font-family: active;
-    font-size: 50px;
-    position: absolute;
-    transform: translateY(-55%);
-    top: 50%;
-    right: -20px;
-}
-
-
-nav#discovernav {
-    margin: 0% 0 3%;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-}
-
 #discoverhead {
     width: 100%;
     margin: 12vh 0 2% 0;
@@ -66,51 +32,6 @@ nav#discovernav {
     font-family: poppins, sans-serif;
 }
 
-#discovernav>ul {
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    font-family: poppins, sans-serif;
-    list-style-type: none;
-}
-
-#discovernav>ul li {
-    position: relative;
-    z-index: 2;
-    cursor: pointer;
-}
-
-#discovernav>ul li span {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    z-index: 1;
-}
-
-#discovernav>ul li:hover span::before {
-    color: #36454f;
-    opacity: 1;
-    content: "-";
-    font-family: active;
-    font-size: 50px;
-    position: absolute;
-    transform: translateY(-55%);
-    top: 50%;
-    left: -18px;
-}
-
-#discovernav>ul li:hover span::after {
-    color: #36454f;
-    opacity: 1;
-    content: "-";
-    font-family: active;
-    font-size: 50px;
-    position: absolute;
-    transform: translateY(-55%);
-    top: 50%;
-    right: -20px;
-}
 
 /* ------------------------ */
 /* -- Content start here -- */
