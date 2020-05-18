@@ -23,11 +23,11 @@ a {
     overflow: hidden;
 }
 
-#container div:hover {
+#container a:hover {
     cursor: pointer;
 }
 
-#container div:hover>img {
+#container a:hover>img {
     opacity: 0.85;
 }
 
