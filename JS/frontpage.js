@@ -58,8 +58,8 @@ window.addEventListener('scroll', function () {
      const third = document.querySelector('#third');
      const sectionBonding_third = third.getBoundingClientRect();
      if (
-          sectionBonding_third.top <= 800 &&
-          sectionBonding_third.bottom >= 200
+          sectionBonding_third.top <= 1400 &&
+          sectionBonding_third.top >= -300
      ) {
           const line_3 = document.querySelector('#third svg path');
           let pathLength_3 = line_3.getTotalLength();
@@ -69,7 +69,7 @@ window.addEventListener('scroll', function () {
                const container_3 = document.querySelector('#third');
                var scrollPercentage_3 = (document.documentElement.scrollTop) / -(container_3.scrollHeight - document.documentElement.clientHeight);
                var drawLength_3 = pathLength_3 * scrollPercentage_3;
-               line_3.style.strokeDashoffset = (pathLength_3 + drawLength_3) / 2;
+               line_3.style.strokeDashoffset = (pathLength_3 + drawLength_3) / 1.5;
 
           });
           console.log('In viewport');
