@@ -6,11 +6,13 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="https://use.typekit.net/dcn1ymp.css">
      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
-          integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+     <script src="https://kit.fontawesome.com/24affb38d4.js" crossorigin="anonymous"></script>
      <title>Smokepins</title>
      <link rel="stylesheet" href="SASS/Styles_nav/styles_nav.css">
      <link rel="stylesheet" href="SASS/Styles_frontpage/frontpage.css">
+     <link rel="stylesheet" href="./CSS/reviewstyle.css">
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+     <script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
 </head>
 
 <body>
@@ -87,7 +89,7 @@
                               <object type="image/svg+xml" data="Media/Icons/HANDMADE_ICON.svg">
                               </object>
                          </div>
-                         <h3>Hamd made</h3>
+                         <h3>Hand made</h3>
                          <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, exercitationem. Lorem
                               ipsum dolor sit amet consectetur
@@ -203,11 +205,114 @@
 
                </div>
           </section>
-          <section id="slide_container"></section>
+          <div id="slide_wrapper">
+               <section id="slide_container">
+                    <div id="slideheader">
+                         <h2>-&nbsp; Reviews &nbsp;-</h2>
+                    </div>
+                    <div id="slidep">
+                         <p>Here is what our customers have to say.</p>
+                    </div>
+                    <div class="testiSlide">
+                         <div>
+                              <figure class="testimonial">
+                                   <blockquote>I have smoked reindeer, home-caught trout and salmon with smokepins in an
+                                        old cardboard box. Thanks for a great product.
+                                        <div class="btn"></div>
+                                   </blockquote>
+                                   <img src="https://i.pinimg.com/280x280_RS/ce/3c/73/ce3c73a186c97e9feec332b45769f3c9.jpg"
+                                        alt="Maksim Goffin" />
+                                   <div class="peopl">
+                                        <h3>Philip Meyer</h3>
+                                        <p class="indentity">Fisherman</p>
+                                   </div>
+                              </figure>
+                         </div>
+
+                         <div>
+                              <figure class="testimonial">
+                                   <blockquote>We just had a little taste of our cold smoked Nile bass for breakfast. It
+                                        tastes heavenly! Way better than what you can buy in any store!
+                                        <div class="btn"></div>
+                                   </blockquote>
+                                   <img src="https://www.thebritishacademy.ac.uk/sites/default/files/styles/large_square/public/userpictures/michael-cook.jpg?itok=ATfZfzm6"
+                                        alt="Maksim Goffin" />
+                                   <div class="peopl">
+                                        <h3>Jan Christiansen</h3>
+                                        <p class="indentity">Home Cook</p>
+                                   </div>
+                              </figure>
+                         </div>
+
+                         <div>
+                              <figure class="testimonial">
+                                   <blockquote>Cold smoked sea trout made with Smokepins... it tastes a bit like heaven!
+                                        <div class="btn"></div>
+                                   </blockquote>
+                                   <img src="https://lh3.googleusercontent.com/proxy/ZtttuRbRcLQv_jc7iguDzwTg9QwON9LEzLJj4wte09Hu4QdTvHIFreZedr5S9Nfm_n9XRBjWYYqiukFQM40vz1S5TvIWRVnAPIBU2QHen2iOdddDP-kdNejBvA"
+                                        alt="Maksim Goffin" />
+                                   <div class="peopl">
+                                        <h3>Tove Brinkgaard</h3>
+                                        <p class="indentity">Food Blogger</p>
+                                   </div>
+                              </figure>
+                         </div>
+
+                         <div>
+                              <figure class="testimonial">
+                                   <blockquote>Just tried cold smoking for the first time, and even I managed to get a
+                                        good result. Great taste, great product.
+                                        <div class="btn"></div>
+                                   </blockquote>
+                                   <img src="https://www.womensbeautylife.com/albums/Black_hairstyles/Black_middle_age_women_hairstyle_a_light_Afro_style.png"
+                                        alt="Maksim Goffin" />
+                                   <div class="peopl">
+                                        <h3>Maria Nielsen</h3>
+                                        <p class="indentity">Home Cook</p>
+                                   </div>
+                              </figure>
+                         </div>
+
+                         <div>
+                              <figure class="testimonial">
+                                   <blockquote>I have just cold smoked three pork tenderloins. Goddamnit they taste
+                                        good.
+                                        <div class="btn"></div>
+                                   </blockquote>
+                                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRSRMsqStZnWWvpPVly0bimILemy7suplz1y_elxFFnRS3Xrw8t&usqp=CAU"
+                                        alt="Maksim Goffin" />
+                                   <div class="peopl">
+                                        <h3>Stefan Berg</h3>
+                                        <p class="indentity">Hunter</p>
+                                   </div>
+                              </figure>
+                         </div>
+                    </div>
+               </section>
+          </div>
           <footer></footer>
      </div>
-     <script src="Js/scripts_nav.js"></script>
+     <script src="Js/scripts_nav.js" src="JS/frontpage.js"></script>
      <script src="JS/frontpage.js"></script>
+     <script>
+          /* Code By Webdevtrick ( https://webdevtrick.com ) */
+          $(document).ready(function () {
+               $('.testiSlide').slick({
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 4000,
+                    responsive: [{
+                         breakpoint: 1024,
+                         settings: {
+                              slidesToShow: 1,
+                              slidesToScroll: 1,
+                              infinite: true,
+                         }
+                    }]
+               });
+          });
+     </script>
 </body>
 
 </html>
