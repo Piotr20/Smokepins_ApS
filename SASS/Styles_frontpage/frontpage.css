@@ -373,7 +373,7 @@ article.explanation .article_text a:hover {
     height: 120vh;
   }
   #how_start .Steps.Steps:nth-of-type(4) {
-    height: 70vh;
+    height: 60vh;
   }
   #how_start .Steps .img_container {
     display: -webkit-box;
@@ -445,26 +445,21 @@ article.explanation .article_text a:hover {
     left: 37.5vw;
     height: 25vh;
   }
-  #how_start #first object {
-    height: 100%;
-  }
   #how_start #secend {
     opacity: 1;
-    top: 110vh;
+    top: 107vh;
     left: 51vw;
     height: 50vh;
-  }
-  #how_start #secend object {
-    height: 100%;
   }
   #how_start #third {
     opacity: 1;
     top: 205vh;
-    left: 46.5vw;
+    left: 49vw;
     height: 50vh;
   }
-  #how_start #third object {
-    height: 100%;
+  #slide_container {
+    width: 100%;
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=frontpage.css.map */
