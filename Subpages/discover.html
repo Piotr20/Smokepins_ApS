@@ -77,28 +77,29 @@
           <!-- Content - Gallery -->
           <div id="container">
                <!-- Delicious smoked bacon -->
-               <div class="grid1"><img src="../Media/Images/Smoked_bacon.jpg" alt="Smoked bacon">
+               <div class="grid1"><a href="bacon.html"><img src="../Media/Images/Smoked_bacon.jpg" alt="Smoked bacon"></a>
                     <a href="bacon.html">
                          <div class="imgtxt">
                               <p>Recipes</p>
-                              <h3>>Delicious smoked bacon</h3>
+                              <h3>Delicious smoked bacon</h3>
                               <p>May 14 2020</p>
                          </div>
                     </a>
                </div>
                <!-- How to use Smokepins -->
-               <div class="grid2"><img src="../Media/Images/Smokepin_on_plate.png" alt="Smokepin on a plate">
+               <div class="grid2"><a href="instructions.html"><img src="../Media/Images/Smokepin_on_plate.png" alt="Smokepin on a plate"></a>
                     <a href="instructions.html">
-                         <div class="imgtxt">
+                    <div class="imgtxt">
                               <p>Guides</p>
 
-                              <h3>>How to use Smokepins<sup>TM</sup>
+                              <h3>How to use Smokepins<sup>TM</sup>
                               </h3>
 
                               <p>April 7 2020</p>
                          </div>
-                    </a>
+                         </a>
                </div>
+               
                <!-- Picking a fishing spot -->
                <div class="grid3"><img src="../Media/Images/Fishing.jpeg" alt="Man fishing in a lake">
                     <div class="imgtxt">
@@ -132,7 +133,7 @@
                     </div>
                </div>
                <!-- Loevens hule -->
-               <div class="grid7"><img src="../Media/Images/Løvenshule.jpeg" alt="DRTV Løvens hule season 5">
+               <div class="grid7"><a href="loevenshule.html"><img src="../Media/Images/Løvenshule.jpeg" alt="DRTV Løvens hule season 5"></a>
                     <a href="loevenshule.html">
                          <div class="imgtxt">
                               <p>News</p>
@@ -153,18 +154,18 @@
                     });
 
                     $("#guides").click(function () {
-                         $(".grid3, .grid4, .grid6").css('display', 'block');
-                         $(".grid1, .grid5, .grid2, .grid7").css('display', 'none');
+                         $(".grid2, .grid3, .grid4").css('display', 'block');
+                         $(".grid6, .grid5, .grid1, .grid7").css('display', 'none');
                     });
 
                     $("#recipes").click(function () {
-                         $(".grid1, .grid5").css('display', 'block');
-                         $(".grid3, .grid4, .grid6, .grid2, .grid7").css('display', 'none');
+                         $(".grid1, .grid5, .grid6").css('display', 'block');
+                         $(".grid3, .grid4, .grid2, .grid7").css('display', 'none');
                     });
 
                     $("#news").click(function () {
-                         $(".grid2, .grid7").css('display', 'block');
-                         $(".grid3, .grid4, .grid5, .grid6, .grid1").css('display', 'none');
+                         $(".grid7").css('display', 'block');
+                         $(".grid3, .grid4, .grid5, .grid6, .grid1, .grid2").css('display', 'none');
                     });
                });
           </script>
