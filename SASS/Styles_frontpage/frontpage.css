@@ -373,6 +373,199 @@ article.explanation .article_text a:hover {
     height: 120vh;
   }
   #how_start .Steps.Steps:nth-of-type(4) {
+    height: 70vh;
+  }
+  #how_start .Steps .img_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #how_start .Steps .img_container:nth-of-type(4) {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #how_start .Steps .img_container object {
+    width: 70%;
+  }
+  #how_start .Steps .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #how_start .Steps h3 {
+    font-weight: 500;
+    font-size: 3em;
+    margin-top: 5%;
+  }
+  #how_start .Steps p {
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 35%;
+    margin: 0 auto;
+    padding: 5% 0;
+  }
+  #how_start .Steps a {
+    height: 45px;
+    width: 180px;
+    display: block;
+    margin-top: 0;
+    color: #FFFCF5;
+    border-radius: 50px;
+    line-height: 45px;
+    font-size: 1.1em;
+  }
+  #how_start .Steps a:hover {
+    border: 1px solid #36454f;
+  }
+  #how_start .line_box {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #how_start .line_box svg {
+    height: 75%;
+  }
+  #how_start #first {
+    opacity: 1;
+    top: 46vh;
+    left: 41vw;
+    height: 25vh;
+  }
+  #how_start #secend {
+    opacity: 1;
+    top: 111vh;
+    left: 49vw;
+    height: 52vh;
+  }
+  #how_start #secend svg {
+    height: 90%;
+  }
+  #how_start #third {
+    opacity: 1;
+    top: 210vh;
+    left: 50vw;
+    height: 50vh;
+  }
+  #how_start #third svg {
+    height: 80%;
+    -webkit-transform: scaleX(1.1);
+            transform: scaleX(1.1);
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  article.explanation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  article.explanation .placeholder {
+    width: 50%;
+    height: 100%;
+  }
+  article.explanation .article_text {
+    width: 50%;
+    height: 100%;
+  }
+  article.explanation .article_text h2 {
+    font-weight: 500;
+    font-size: 3em;
+    margin-top: 10%;
+  }
+  article.explanation .article_text p {
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5%;
+  }
+  article.explanation .article_text a {
+    height: 45px;
+    width: 180px;
+    display: block;
+    margin-top: 15%;
+    color: #FFFCF5;
+    border-radius: 50px;
+    line-height: 45px;
+    font-size: 1.1em;
+  }
+  article.explanation .article_text a:hover {
+    border: 1px solid #36454f;
+  }
+  #icon_container h2 {
+    font-size: 3em;
+  }
+  #icon_container .icon_wrapper {
+    width: 100%;
+    height: 70%;
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #icon_container .icon_wrapper > div {
+    width: 20%;
+    height: 85%;
+    margin-top: 5%;
+  }
+  #icon_container .icon_wrapper > div h3 {
+    font-size: 1.8em;
+  }
+  #icon_container .icon_wrapper > div p {
+    font-size: .9em;
+  }
+  #how_start .How_to_start h2 {
+    font-weight: 500;
+    font-size: 3em;
+    margin-top: 5%;
+  }
+  #how_start .How_to_start p {
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 35%;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+  #how_start .How_to_start a {
+    height: 45px;
+    width: 180px;
+    display: block;
+    margin-top: 3%;
+    color: #FFFCF5;
+    border-radius: 50px;
+    line-height: 45px;
+    font-size: 1.1em;
+  }
+  #how_start .How_to_start a:hover {
+    border: 1px solid #36454f;
+  }
+  #how_start .Steps {
+    padding-top: 0;
+    height: 70vh;
+  }
+  #how_start .Steps.Steps:nth-of-type(3), #how_start .Steps.Steps:nth-of-type(4) {
+    height: 120vh;
+  }
+  #how_start .Steps.Steps:nth-of-type(4) {
     height: 60vh;
   }
   #how_start .Steps .img_container {
@@ -456,10 +649,6 @@ article.explanation .article_text a:hover {
     top: 205vh;
     left: 49vw;
     height: 50vh;
-  }
-  #slide_container {
-    width: 100%;
-    height: 100vh;
   }
 }
 /*# sourceMappingURL=frontpage.css.map */
