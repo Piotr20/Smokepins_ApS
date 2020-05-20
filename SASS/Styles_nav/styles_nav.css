@@ -9,7 +9,7 @@ body {
   background-color: #FFFCF5;
 }
 
-body h2, body p, body h3{
+body h2, body h3{
   color: #36454f;
 }
 
@@ -254,6 +254,7 @@ header #slider.active_slider {
     opacity: 0;
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
+    margin-top: -1.5px;
   }
   header nav > ul > li:nth-of-type(3) ul li {
     line-height: normal;
