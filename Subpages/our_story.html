@@ -197,11 +197,11 @@
                     line_2.style.strokeDashoffset = pathLength_2;
                     window.addEventListener("scroll", function (e) {
                          const container_2 = document.querySelector('#secend');
-                         var scrollPercentage_2 = (document.documentElement.scrollTop - 150) / (
+                         var scrollPercentage_2 = (document.documentElement.scrollTop - 200) / (
                               container_2.scrollHeight - document.documentElement.clientHeight
                          ) + 300;
-                         var drawLength_2 = pathLength_2 * scrollPercentage_2;
-                         line_2.style.strokeDashoffset = pathLength_2 + drawLength_2 / 2;
+                         var drawLength_2 = pathLength_2 * scrollPercentage_2 / 3;
+                         line_2.style.strokeDashoffset = pathLength_2 + drawLength_2;
                     });
                     console.log('In viewport');
                } else {
@@ -221,13 +221,13 @@
                     line_3.style.strokeDashoffset = pathLength_3;
                     window.addEventListener("scroll", function (e) {
                          const container_3 = document.querySelector('#third');
-                         var scrollPercentage_3 = (document.documentElement.scrollTop - 550) /
+                         var scrollPercentage_3 = (document.documentElement.scrollTop - 1000) /
                               -
                               (
                                    container_3.scrollHeight - document.documentElement.clientHeight
                               );
-                         var drawLength_3 = pathLength_3 * scrollPercentage_3;
-                         line_3.style.strokeDashoffset = (pathLength_3 + drawLength_3) / 2;
+                         var drawLength_3 = pathLength_3 * scrollPercentage_3 / 3;
+                         line_3.style.strokeDashoffset = (pathLength_3 + drawLength_3);
                     });
                     console.log('In viewport');
                } else {
