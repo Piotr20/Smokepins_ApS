@@ -197,7 +197,7 @@
                     line_2.style.strokeDashoffset = pathLength_2;
                     window.addEventListener("scroll", function (e) {
                          const container_2 = document.querySelector('#secend');
-                         var scrollPercentage_2 = (document.documentElement.scrollTop) / 2.6 / (
+                         var scrollPercentage_2 = (document.documentElement.scrollTop) / 5 / (
                               container_2.scrollHeight - document.documentElement.clientHeight
                          ) + 300;
                          var drawLength_2 = pathLength_2 * scrollPercentage_2;
@@ -227,7 +227,7 @@
                                    container_3.scrollHeight - document.documentElement.clientHeight
                               );
                          var drawLength_3 = pathLength_3 * scrollPercentage_3;
-                         line_3.style.strokeDashoffset = (pathLength_3 + drawLength_3) / 2;
+                         line_3.style.strokeDashoffset = (pathLength_3 + drawLength_3) / 2.7;
                     });
                     console.log('In viewport');
                } else {
