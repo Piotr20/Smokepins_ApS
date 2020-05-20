@@ -638,11 +638,17 @@ article.explanation .article_text a:hover {
     left: 37.5vw;
     height: 25vh;
   }
+  #how_start #first svg {
+    height: 100%;
+  }
   #how_start #secend {
     opacity: 1;
     top: 107vh;
     left: 51vw;
     height: 50vh;
+  }
+  #how_start #secend svg {
+    height: 103%;
   }
   #how_start #third {
     opacity: 1;
