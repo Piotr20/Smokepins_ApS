@@ -197,9 +197,10 @@
                     line_2.style.strokeDashoffset = pathLength_2;
                     window.addEventListener("scroll", function (e) {
                          const container_2 = document.querySelector('#secend');
-                         var scrollPercentage_2 = (document.documentElement.scrollTop - 100) / (
-                              container_2.scrollHeight - document.documentElement.clientHeight
-                         );
+                         var scrollPercentage_2 = (document.documentElement.scrollTop - 250) * 1.1 /
+                              (
+                                   container_2.scrollHeight - document.documentElement.clientHeight
+                              );
                          var drawLength_2 = pathLength_2 * scrollPercentage_2 / 3;
                          line_2.style.strokeDashoffset = pathLength_2 + drawLength_2;
                     });
