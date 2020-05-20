@@ -34,7 +34,7 @@
 
 .storyp1 {
      width: 100%;
-     height: 70vh;
+     height: 96vh;
      padding-left: 5%;
      display: flex;
      justify-content: space-between;
@@ -110,6 +110,7 @@
 
 .storyp3 {
      width: 100%;
+     overflow: hidden;
      height: 80vh;
      padding-left: 5%;
      margin-top: -10%;
