@@ -273,6 +273,12 @@ article.explanation .article_text a:hover {
   margin-right: 10%;
 }
 
+#how_start .Steps.Steps:nth-of-type(3) .img_container {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 #how_start .line_box {
   display: none;
 }
@@ -376,13 +382,15 @@ article.explanation .article_text a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 0 10%;
   }
   #icon_container .icon_wrapper > div {
     width: 20%;
-    height: 85%;
-    margin-top: 5%;
+    height: 75%;
+    margin-top: 15%;
   }
   #icon_container .icon_wrapper > div h3 {
     font-size: 2.5em;
@@ -569,7 +577,7 @@ article.explanation .article_text a:hover {
   }
   article.explanation .article_text h2 {
     font-size: 3.5em;
-    margin-top: 10%;
+    margin-top: 20%;
   }
   article.explanation .article_text p {
     font-size: 1.1em;
@@ -657,13 +665,14 @@ article.explanation .article_text a:hover {
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
-  #how_start .Steps .img_container:nth-of-type(4) {
+  #how_start .Steps .img_container object {
+    width: 70%;
+    margin-left: -5%;
+  }
+  #how_start .Steps.Steps:nth-of-type(3) .img_container {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-  }
-  #how_start .Steps .img_container object {
-    width: 70%;
   }
   #how_start .Steps .text {
     display: -webkit-box;

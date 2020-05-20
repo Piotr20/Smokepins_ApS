@@ -257,6 +257,14 @@ article.explanation {
                }
           }
 
+          &.Steps:nth-of-type(3) {
+               .img_container {
+                    justify-content: flex-end;
+
+
+               }
+          }
+
      }
 
      .line_box {
@@ -373,13 +381,14 @@ article.explanation {
                height: 70%;
                margin-top: 0;
                display: flex;
-               justify-content: space-around;
+               justify-content: space-evenly;
+               padding: 0 10%;
 
 
                &>div {
                     width: 20%;
-                    height: 85%;
-                    margin-top: 5%;
+                    height: 75%;
+                    margin-top: 15%;
 
                     h3 {
                          font-size: 2.5em;
@@ -608,7 +617,7 @@ article.explanation {
 
                h2 {
                     font-size: 3.5em;
-                    margin-top: 10%;
+                    margin-top: 20%;
                }
 
                p {
@@ -723,12 +732,22 @@ article.explanation {
                     display: flex;
                     justify-content: flex-start;
 
-                    &:nth-of-type(4) {
-                         justify-content: flex-end;
-                    }
+
 
                     object {
                          width: 70%;
+                         margin-left: -5%;
+
+
+
+                    }
+
+
+               }
+
+               &.Steps:nth-of-type(3) {
+                    .img_container {
+                         justify-content: flex-end;
 
 
                     }
