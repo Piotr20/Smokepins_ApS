@@ -447,6 +447,7 @@ article.explanation .article_text a:hover {
   }
   #how_start .Steps .img_container object {
     width: 70%;
+    margin-left: -5%;
   }
   #how_start .Steps .text {
     display: -webkit-box;
