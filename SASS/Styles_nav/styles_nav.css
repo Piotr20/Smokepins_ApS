@@ -254,7 +254,7 @@ header #slider.active_slider {
     opacity: 0;
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
-    margin-top: -2px;
+    margin-top: -1.5px;
   }
   header nav > ul > li:nth-of-type(3) ul li {
     line-height: normal;
