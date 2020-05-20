@@ -8,9 +8,9 @@
   width: 100%;
   height: 100%;
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 article.explanation {
@@ -90,12 +90,12 @@ article.explanation .article_text a:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-#icon_container .icon_wrapper>div {
+#icon_container .icon_wrapper > div {
   width: 40%;
   height: 50%;
   display: -webkit-box;
@@ -103,37 +103,37 @@ article.explanation .article_text a:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 10%;
   background-color: #FFFCF5;
   border-radius: 30px;
   font-family: "Poppins", sans-serif;
 }
 
-#icon_container .icon_wrapper>div>div {
+#icon_container .icon_wrapper > div > div {
   width: 100%;
   height: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#icon_container .icon_wrapper>div>div object {
+#icon_container .icon_wrapper > div > div object {
   width: 90%;
   height: 90%;
 }
 
-#icon_container .icon_wrapper>div p {
+#icon_container .icon_wrapper > div p {
   padding-top: 10%;
   width: 80%;
   font-size: 12px;
@@ -200,7 +200,7 @@ article.explanation .article_text a:hover {
   display: flex;
   padding-top: 45%;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
 }
 
 #how_start .Steps .text {
@@ -211,11 +211,11 @@ article.explanation .article_text a:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #how_start .Steps .img_container {
@@ -293,10 +293,9 @@ article.explanation .article_text a:hover {
   color: #36454f;
   text-align: left;
   padding-left: 2vw;
+  border: 1px solid #36454f;
   border-radius: 10px;
   line-height: 25px;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
 }
@@ -335,31 +334,25 @@ article.explanation .article_text a:hover {
     display: -ms-flexbox;
     display: flex;
   }
-
   article.explanation .placeholder {
     width: 50%;
     height: 100%;
   }
-
   article.explanation .article_text {
     width: 50%;
     height: 100%;
   }
-
   article.explanation .article_text h2 {
-    font-weight: 500;
-    font-size: 3em;
+    font-size: 3.5em;
     margin-top: 10%;
   }
-
   article.explanation .article_text p {
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 400;
     width: 70%;
     margin: 0 auto;
     padding-top: 5%;
   }
-
   article.explanation .article_text a {
     height: 45px;
     width: 180px;
@@ -370,15 +363,12 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
-
   article.explanation .article_text a:hover {
     border: 1px solid #36454f;
   }
-
   #icon_container h2 {
-    font-size: 3em;
+    font-size: 3.5em;
   }
-
   #icon_container .icon_wrapper {
     width: 100%;
     height: 70%;
@@ -387,37 +377,30 @@ article.explanation .article_text a:hover {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
   }
-
-  #icon_container .icon_wrapper>div {
+  #icon_container .icon_wrapper > div {
     width: 20%;
     height: 85%;
     margin-top: 5%;
   }
-
-  #icon_container .icon_wrapper>div h3 {
-    font-size: 1.8em;
+  #icon_container .icon_wrapper > div h3 {
+    font-size: 2.5em;
   }
-
-  #icon_container .icon_wrapper>div p {
+  #icon_container .icon_wrapper > div p {
     font-size: .9em;
   }
-
   #how_start .How_to_start h2 {
-    font-weight: 500;
-    font-size: 3em;
+    font-size: 3.5em;
     margin-top: 5%;
   }
-
   #how_start .How_to_start p {
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 400;
     width: 35%;
     margin: 0 auto;
     padding-top: 3%;
   }
-
   #how_start .How_to_start a {
     height: 45px;
     width: 180px;
@@ -428,67 +411,54 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
-
   #how_start .How_to_start a:hover {
     border: 1px solid #36454f;
   }
-
   #how_start .Steps {
     padding-top: 0;
     height: 70vh;
   }
-
-  #how_start .Steps.Steps:nth-of-type(3),
-  #how_start .Steps.Steps:nth-of-type(4) {
+  #how_start .Steps.Steps:nth-of-type(3), #how_start .Steps.Steps:nth-of-type(4) {
     height: 120vh;
   }
-
   #how_start .Steps.Steps:nth-of-type(4) {
     height: 70vh;
   }
-
   #how_start .Steps .img_container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
-
   #how_start .Steps .img_container:nth-of-type(4) {
     -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
-
   #how_start .Steps .img_container object {
     width: 70%;
   }
-
   #how_start .Steps .text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   #how_start .Steps h3 {
-    font-weight: 500;
     font-size: 3em;
     margin-top: 5%;
   }
-
   #how_start .Steps p {
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 400;
     width: 35%;
     margin: 0 auto;
     padding: 5% 0;
   }
-
   #how_start .Steps a {
     height: 45px;
     width: 180px;
@@ -499,11 +469,9 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
-
   #how_start .Steps a:hover {
     border: 1px solid #36454f;
   }
-
   #how_start .line_box {
     position: absolute;
     top: 0;
@@ -514,47 +482,40 @@ article.explanation .article_text a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+            transform: translateX(-50%);
   }
-
   #how_start .line_box svg {
     height: 75%;
   }
-
   #how_start #first {
     opacity: 1;
     top: 46vh;
     left: 41vw;
     height: 25vh;
   }
-
   #how_start #secend {
     opacity: 1;
     top: 111vh;
     left: 49vw;
     height: 52vh;
   }
-
   #how_start #secend svg {
     height: 90%;
   }
-
   #how_start #third {
     opacity: 1;
     top: 210vh;
     left: 50vw;
     height: 50vh;
   }
-
   #how_start #third svg {
     height: 80%;
     -webkit-transform: scaleX(1.1);
-    transform: scaleX(1.1);
+            transform: scaleX(1.1);
   }
-
   .newsletter input[type=text] {
     height: 45px;
     width: 380px;
@@ -565,7 +526,6 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
-
   .newsletter a {
     height: 45px;
     width: 180px;
@@ -576,11 +536,9 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
-
   .newsletter a:hover {
     border: 1px solid #36454f;
   }
-
   .newsletterimg {
     height: 300px;
     width: 300px;
@@ -590,7 +548,6 @@ article.explanation .article_text a:hover {
     left: 10%;
     display: block;
   }
-
   .newsletterimg object {
     width: 100%;
   }
@@ -602,31 +559,25 @@ article.explanation .article_text a:hover {
     display: -ms-flexbox;
     display: flex;
   }
-
   article.explanation .placeholder {
     width: 50%;
     height: 100%;
   }
-
   article.explanation .article_text {
     width: 50%;
     height: 100%;
   }
-
   article.explanation .article_text h2 {
-    font-weight: 500;
-    font-size: 3em;
+    font-size: 3.5em;
     margin-top: 10%;
   }
-
   article.explanation .article_text p {
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 400;
     width: 70%;
     margin: 0 auto;
     padding-top: 5%;
   }
-
   article.explanation .article_text a {
     height: 45px;
     width: 180px;
@@ -637,15 +588,12 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
-
   article.explanation .article_text a:hover {
     border: 1px solid #36454f;
   }
-
   #icon_container h2 {
-    font-size: 3em;
+    font-size: 3.5em;
   }
-
   #icon_container .icon_wrapper {
     width: 100%;
     height: 70%;
@@ -654,37 +602,30 @@ article.explanation .article_text a:hover {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
   }
-
-  #icon_container .icon_wrapper>div {
+  #icon_container .icon_wrapper > div {
     width: 20%;
     height: 85%;
     margin-top: 5%;
   }
-
-  #icon_container .icon_wrapper>div h3 {
+  #icon_container .icon_wrapper > div h3 {
     font-size: 1.8em;
   }
-
-  #icon_container .icon_wrapper>div p {
+  #icon_container .icon_wrapper > div p {
     font-size: .9em;
   }
-
   #how_start .How_to_start h2 {
-    font-weight: 500;
-    font-size: 3em;
+    font-size: 3.5em;
     margin-top: 5%;
   }
-
   #how_start .How_to_start p {
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 400;
     width: 35%;
     margin: 0 auto;
     padding-top: 3%;
   }
-
   #how_start .How_to_start a {
     height: 45px;
     width: 180px;
@@ -695,67 +636,54 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
-
   #how_start .How_to_start a:hover {
     border: 1px solid #36454f;
   }
-
   #how_start .Steps {
     padding-top: 0;
     height: 70vh;
   }
-
-  #how_start .Steps.Steps:nth-of-type(3),
-  #how_start .Steps.Steps:nth-of-type(4) {
+  #how_start .Steps.Steps:nth-of-type(3), #how_start .Steps.Steps:nth-of-type(4) {
     height: 120vh;
   }
-
   #how_start .Steps.Steps:nth-of-type(4) {
     height: 60vh;
   }
-
   #how_start .Steps .img_container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
-
   #how_start .Steps .img_container:nth-of-type(4) {
     -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
-
   #how_start .Steps .img_container object {
     width: 70%;
   }
-
   #how_start .Steps .text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   #how_start .Steps h3 {
-    font-weight: 500;
-    font-size: 3em;
+    font-size: 2.5em;
     margin-top: 5%;
   }
-
   #how_start .Steps p {
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 400;
     width: 35%;
     margin: 0 auto;
     padding: 5% 0;
   }
-
   #how_start .Steps a {
     height: 45px;
     width: 180px;
@@ -766,11 +694,9 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
-
   #how_start .Steps a:hover {
     border: 1px solid #36454f;
   }
-
   #how_start .line_box {
     position: absolute;
     top: 0;
@@ -781,41 +707,35 @@ article.explanation .article_text a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+            transform: translateX(-50%);
   }
-
   #how_start #first {
     opacity: 1;
     top: 41.5vh;
     left: 37.5vw;
     height: 25vh;
   }
-
   #how_start #first svg {
     height: 100%;
   }
-
   #how_start #secend {
     opacity: 1;
     top: 107vh;
     left: 51vw;
     height: 50vh;
   }
-
   #how_start #secend svg {
     height: 103%;
   }
-
   #how_start #third {
     opacity: 1;
     top: 205vh;
     left: 49vw;
     height: 50vh;
   }
-
   .newsletter input[type=text] {
     height: 45px;
     width: 380px;
@@ -825,9 +745,7 @@ article.explanation .article_text a:hover {
     border-radius: 50px;
     line-height: 45px;
     font-size: 1.1em;
-    border: 1px solid #36454f;
   }
-
   .newsletter a {
     height: 45px;
     width: 180px;
@@ -838,7 +756,6 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
-
   .newsletterimg {
     height: 300px;
     width: 300px;
@@ -848,10 +765,8 @@ article.explanation .article_text a:hover {
     left: 10%;
     display: block;
   }
-
   .newsletterimg object {
     width: 100%;
   }
 }
-
 /*# sourceMappingURL=frontpage.css.map */

@@ -14,7 +14,7 @@
 
 #storyhead h1 {
      font-family: active;
-     font-size: 50px;
+     font-size: 3.5em;
      font-weight: 500;
 }
 
@@ -34,6 +34,7 @@
 
 .storyp1 {
      width: 100%;
+     height: 70vh;
      padding-left: 5%;
      display: flex;
      justify-content: space-between;
@@ -47,12 +48,13 @@
 
 .p1text h3 {
      font-family: active;
-     font-size: 50px;
+     font-size: 2.5em;
      font-weight: 500;
 }
 
 .storyp1 p {
      font-family: poppins, sans-serif;
+     font-size: 1.1em;
 }
 
 .storyimg1 {
@@ -68,10 +70,14 @@
 
 .linedr1 svg {
      width: 70%;
+     margin-top: 3%;
+
 }
+
 
 .storyp2 {
      width: 100%;
+     height: 80vh;
      padding-right: 5%;
      margin-top: -14%;
      display: flex;
@@ -87,12 +93,13 @@
 
 .p2text h3 {
      font-family: active;
-     font-size: 50px;
+     font-size: 2.5em;
      font-weight: 500;
 }
 
 .storyp2 p {
      font-family: poppins, sans-serif;
+     font-size: 1.1em;
 }
 
 .storyimg2 {
@@ -102,8 +109,8 @@
 }
 
 .storyp3 {
-     overflow-x: hidden;
      width: 100%;
+     height: 80vh;
      padding-left: 5%;
      margin-top: -10%;
      display: flex;
@@ -113,6 +120,7 @@
 
 .storyp3 p {
      font-family: poppins, sans-serif;
+     font-size: 1.1em;
 }
 
 .storyimg3 {
@@ -158,8 +166,13 @@ footer {
      font-size: 14px;
 }
 
+footer h3 {
+
+     color: #fffcf5;
+}
+
 .biglogo {
-     width: 10em;
+     width: 15em;
 }
 
 .followicons {
@@ -180,6 +193,11 @@ footer {
      .storywrapper {
           width: 100%;
           overflow: hidden;
+     }
+
+     footer h3 {
+
+          color: #fffcf5;
      }
 
      #storyhead {

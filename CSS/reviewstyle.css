@@ -6,38 +6,39 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 40px;
-    padding-bottom: 40px;
-    font-family: poppins;
+	padding-bottom: 40px;
+	font-family: poppins;
 }
 
-#slide_wrapper{
-    width: 100%;
-    background-color: #FFF3D5;
+#slide_wrapper {
+	width: 100%;
+	background-color: #FFF3D5;
 }
 
-#slideheader{
-    width: 100%;
-    text-align: center;
-    font-family: active;
-    height: 10vh;
-    font-size: 2em;
-    font-weight: 500;
-    color: #36454f;
+#slideheader {
+	width: 100%;
+	text-align: center;
+	font-family: active;
+	height: 10vh;
+	font-size: 2em;
+	font-weight: 500;
+	color: #36454f;
 }
 
-#slidep{
-    width: 100%;
-    text-align: center;
-    font-family: poppins;
-    font-size: 1em;
-    margin-bottom: 3em;
-    font-weight: 400;
-    color: #36454f;
+#slidep {
+	width: 100%;
+	text-align: center;
+	font-family: poppins;
+	font-size: 1em;
+	margin-bottom: 3em;
+	font-weight: 400;
+	color: #36454f;
 }
 
 .indentity {
-	margin: 0!important
+	margin: 0 !important
 }
+
 figure.testimonial {
 	position: relative;
 	float: left;
@@ -47,12 +48,14 @@ figure.testimonial {
 	text-align: left;
 	box-shadow: none !important;
 }
+
 figure.testimonial * {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	-webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
 	transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
 }
+
 figure.testimonial img {
 	max-width: 100%;
 	vertical-align: middle;
@@ -61,6 +64,7 @@ figure.testimonial img {
 	border-radius: 50%;
 	margin: 40px 0 0 10px;
 }
+
 figure.testimonial blockquote {
 	background-color: #FFFCF5;
 	display: block;
@@ -69,26 +73,31 @@ figure.testimonial blockquote {
 	line-height: 1.5em;
 	margin: 0;
 	padding: 25px 50px 30px;
-    position: relative;
-    border-radius: 10px;
+	position: relative;
+	border-radius: 10px;
 }
-figure.testimonial blockquote:before, figure.testimonial blockquote:after {
+
+figure.testimonial blockquote:before,
+figure.testimonial blockquote:after {
 	content: "\201C";
 	position: absolute;
 	color: #36454f;
-    font-size: 45px;
-    font-style: normal;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 45px;
+	font-style: normal;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 figure.testimonial blockquote:before {
 	top: 25px;
 	left: 20px;
 }
+
 figure.testimonial blockquote:after {
 	content: "\201D";
 	right: 30px;
 	bottom: 0;
 }
+
 figure.testimonial .btn {
 	top: 100%;
 	width: 0;
@@ -99,6 +108,7 @@ figure.testimonial .btn {
 	margin: 0;
 	position: absolute;
 }
+
 figure.testimonial .peopl {
 	position: absolute;
 	bottom: 45px;
@@ -108,9 +118,11 @@ figure.testimonial .peopl {
 	-webkit-transform: translateY(50%);
 	transform: translateY(50%);
 }
+
 figure.testimonial .peopl h3 {
 	margin: 0;
 }
+
 .slick-slider {
 	position: relative;
 	display: block;
@@ -122,6 +134,7 @@ figure.testimonial .peopl h3 {
 	touch-action: pan-y;
 	-webkit-tap-highlight-color: transparent;
 }
+
 .slick-list {
 	position: relative;
 	display: block;
@@ -129,63 +142,81 @@ figure.testimonial .peopl h3 {
 	margin: 0;
 	padding: 0;
 }
+
 .slick-list:focus {
 	outline: none;
 }
+
 .slick-list.dragging {
 	cursor: pointer;
 	cursor: hand;
 }
-.slick-slider .slick-track, .slick-slider .slick-list {
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
 	transform: translate3d(0, 0, 0);
 }
+
 .slick-track {
 	position: relative;
 	top: 0;
 	left: 0;
 	display: block;
 }
-.slick-track:before, .slick-track:after {
+
+.slick-track:before,
+.slick-track:after {
 	display: table;
 	content: '';
 }
+
 .slick-track:after {
 	clear: both;
 }
+
 .slick-loading .slick-track {
 	visibility: hidden;
 }
+
 .slick-slide {
 	display: none;
 	float: left;
 	height: 100%;
 	min-height: 1px;
 }
+
 .slick-slide img {
 	display: block;
 }
+
 .slick-slide.slick-loading img {
 	display: none;
 }
+
 .slick-slide.dragging img {
 	pointer-events: none;
 }
+
 .slick-initialized .slick-slide {
 	display: block;
 }
+
 .slick-loading .slick-slide {
 	visibility: hidden;
 }
+
 .slick-vertical .slick-slide {
 	display: block;
 	height: auto;
 	border: 1px solid transparent;
 }
+
 .slick-btn.slick-hidden {
 	display: none;
 }
 
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
 	font-size: 0;
 	line-height: 0;
 	position: absolute;
@@ -201,31 +232,51 @@ figure.testimonial .peopl h3 {
 	outline: none;
 	background: transparent;
 }
-.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
 	color: transparent;
 	outline: none;
 	background: transparent;
 }
-.slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
 	opacity: 1;
 }
-.slick-prev:before, .slick-next:before {
+
+.slick-prev:before,
+.slick-next:before {
 	font-family: "FontAwesome";
 	font-size: 30px;
 	line-height: 1;
-    color: #36454f;
+	color: #36454f;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
 .slick-prev {
 	left: -40px;
 }
+
 .slick-prev:before {
 	content: "";
 }
+
 .slick-next {
 	right: -40px;
 }
+
 .slick-next:before {
 	content: "";
+}
+
+@media only screen and (max-width:1024px) {
+	#slide_wrapper {
+		overflow: hidden;
+	}
 }

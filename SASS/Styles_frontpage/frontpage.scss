@@ -267,6 +267,57 @@ article.explanation {
 
 }
 
+.newsletter {
+     position: relative;
+     padding: 40px 15px;
+}
+
+.newsletter input[type=text] {
+     text-decoration: none;
+     background-color: #fffcf5;
+     height: 25px;
+     width: 250px;
+     display: block;
+     margin: 0 auto;
+     margin-top: 4%;
+     color: #36454f;
+     text-align: left;
+     padding-left: 2vw;
+     border: 1px solid #36454f;
+     border-radius: 10px;
+     line-height: 25px;
+     font-family: "Poppins", sans-serif;
+     font-size: 12px;
+}
+
+.newsletter a {
+     text-decoration: none;
+     background-color: #36454f;
+     height: 25px;
+     width: 100px;
+     display: block;
+     margin: 0 auto;
+     margin-top: 4.5%;
+     color: #FFFCF5;
+     text-align: center;
+     border-radius: 10px;
+     line-height: 25px;
+     -webkit-transition: all .5s ease;
+     transition: all .5s ease;
+     text-transform: uppercase;
+     font-family: "Poppins", sans-serif;
+     font-size: 12px;
+}
+
+.newsletter a:hover {
+     background-color: #FFFCF5;
+     color: #36454f;
+}
+
+.newsletterimg {
+     display: none;
+}
+
 @media only screen and (min-width:1024px) {
      article.explanation {
           display: flex;
@@ -281,14 +332,13 @@ article.explanation {
                height: 100%;
 
                h2 {
-                    font-weight: 500;
-                    font-size: 3em;
+                    font-size: 3.5em;
                     margin-top: 10%;
                }
 
                p {
                     font-size: 1.1em;
-                    font-weight: 600;
+                    font-weight: 400;
                     width: 70%;
                     margin: 0 auto;
                     padding-top: 5%;
@@ -315,7 +365,7 @@ article.explanation {
      #icon_container {
 
           h2 {
-               font-size: 3em;
+               font-size: 3.5em;
           }
 
           .icon_wrapper {
@@ -332,7 +382,7 @@ article.explanation {
                     margin-top: 5%;
 
                     h3 {
-                         font-size: 1.8em;
+                         font-size: 2.5em;
                     }
 
                     p {
@@ -352,14 +402,14 @@ article.explanation {
 
           .How_to_start {
                h2 {
-                    font-weight: 500;
-                    font-size: 3em;
+
+                    font-size: 3.5em;
                     margin-top: 5%;
                }
 
                p {
                     font-size: 1.1em;
-                    font-weight: 600;
+                    font-weight: 400;
                     width: 35%;
                     margin: 0 auto;
                     padding-top: 3%;
@@ -416,14 +466,13 @@ article.explanation {
                }
 
                h3 {
-                    font-weight: 500;
                     font-size: 3em;
                     margin-top: 5%;
                }
 
                p {
                     font-size: 1.1em;
-                    font-weight: 600;
+                    font-weight: 400;
                     width: 35%;
                     margin: 0 auto;
                     padding: 5% 0;
@@ -502,6 +551,46 @@ article.explanation {
           }
 
      }
+
+     .newsletter input[type=text] {
+          height: 45px;
+          width: 380px;
+          display: block;
+          margin-top: 4%;
+          color: #36454f;
+          border-radius: 50px;
+          line-height: 45px;
+          font-size: 1.1em;
+     }
+
+     .newsletter a {
+          height: 45px;
+          width: 180px;
+          display: block;
+          margin-top: 4.5%;
+          color: #FFFCF5;
+          border-radius: 50px;
+          line-height: 45px;
+          font-size: 1.1em;
+     }
+
+     .newsletter a:hover {
+          border: 1px solid #36454f;
+     }
+
+     .newsletterimg {
+          height: 300px;
+          width: 300px;
+          z-index: 10;
+          position: absolute;
+          top: 20%;
+          left: 10%;
+          display: block;
+     }
+
+     .newsletterimg object {
+          width: 100%;
+     }
 }
 
 @media only screen and (min-width:1600px) {
@@ -518,14 +607,13 @@ article.explanation {
                height: 100%;
 
                h2 {
-                    font-weight: 500;
-                    font-size: 3em;
+                    font-size: 3.5em;
                     margin-top: 10%;
                }
 
                p {
                     font-size: 1.1em;
-                    font-weight: 600;
+                    font-weight: 400;
                     width: 70%;
                     margin: 0 auto;
                     padding-top: 5%;
@@ -552,7 +640,7 @@ article.explanation {
      #icon_container {
 
           h2 {
-               font-size: 3em;
+               font-size: 3.5em;
           }
 
           .icon_wrapper {
@@ -589,14 +677,13 @@ article.explanation {
 
           .How_to_start {
                h2 {
-                    font-weight: 500;
-                    font-size: 3em;
+                    font-size: 3.5em;
                     margin-top: 5%;
                }
 
                p {
                     font-size: 1.1em;
-                    font-weight: 600;
+                    font-weight: 400;
                     width: 35%;
                     margin: 0 auto;
                     padding-top: 3%;
@@ -653,14 +740,13 @@ article.explanation {
                }
 
                h3 {
-                    font-weight: 500;
-                    font-size: 3em;
+                    font-size: 2.5em;
                     margin-top: 5%;
                }
 
                p {
                     font-size: 1.1em;
-                    font-weight: 600;
+                    font-weight: 400;
                     width: 35%;
                     margin: 0 auto;
                     padding: 5% 0;
@@ -732,6 +818,42 @@ article.explanation {
 
           }
 
+     }
+
+     .newsletter input[type=text] {
+          height: 45px;
+          width: 380px;
+          display: block;
+          margin-top: 4%;
+          color: #36454f;
+          border-radius: 50px;
+          line-height: 45px;
+          font-size: 1.1em;
+     }
+
+     .newsletter a {
+          height: 45px;
+          width: 180px;
+          display: block;
+          margin-top: 4.5%;
+          color: #FFFCF5;
+          border-radius: 50px;
+          line-height: 45px;
+          font-size: 1.1em;
+     }
+
+     .newsletterimg {
+          height: 300px;
+          width: 300px;
+          z-index: 10;
+          position: absolute;
+          top: 20%;
+          left: 10%;
+          display: block;
+     }
+
+     .newsletterimg object {
+          width: 100%;
      }
 
 }
