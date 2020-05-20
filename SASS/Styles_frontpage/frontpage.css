@@ -283,6 +283,29 @@ article.explanation .article_text a:hover {
   display: none;
 }
 
+#how_start .line_box_mobile {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+#how_start .line_box_mobile > div {
+  display: none;
+}
+
+#how_start .line_box_mobile > div.one {
+  width: 100%;
+  position: absolute;
+  top: 35vh;
+  left: -12vw;
+  display: block;
+}
+
+#how_start .line_box_mobile > div.one svg {
+  width: 90%;
+}
+
 .newsletter {
   position: relative;
   padding: 40px 15px;
@@ -304,6 +327,11 @@ article.explanation .article_text a:hover {
   line-height: 25px;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
+}
+
+.newsletter input[type=text]:focus {
+  outline: none;
+  border: 2px solid #36454f;
 }
 
 .newsletter a {
@@ -332,6 +360,81 @@ article.explanation .article_text a:hover {
 
 .newsletterimg {
   display: none;
+}
+
+.discover_art {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.discover_art .img_box {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.discover_art .img_box img {
+  width: 100%;
+}
+
+.discover_art .text_box {
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.discover_art .text_box h2 {
+  font-family: "active", sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  width: 90%;
+  text-align: center;
+}
+
+.discover_art .text_box p {
+  font-family: "Poppins", sans-serif;
+  font-size: .8em;
+  padding: 10% 0;
+  text-align: center;
+  width: 85%;
+}
+
+.discover_art .text_box a {
+  text-decoration: none;
+  background-color: #36454f;
+  height: 30px;
+  width: 115px;
+  display: block;
+  margin: 0 auto;
+  color: #FFFCF5;
+  border-radius: 15px;
+  line-height: 30px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.discover_art .text_box a:hover {
+  background-color: #FFFCF5;
+  color: #36454f;
+  border: 1px solid #36454f;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -525,6 +628,9 @@ article.explanation .article_text a:hover {
     -webkit-transform: scaleX(1.1);
             transform: scaleX(1.1);
   }
+  #how_start .line_box_mobile {
+    display: none;
+  }
   .newsletter input[type=text] {
     height: 45px;
     width: 380px;
@@ -559,6 +665,59 @@ article.explanation .article_text a:hover {
   }
   .newsletterimg object {
     width: 100%;
+  }
+  #slideheader h2 {
+    font-size: 2.01em;
+    font-weight: 500;
+  }
+  .discover_art {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .discover_art .img_box {
+    width: 50%;
+    height: 100vh;
+  }
+  .discover_art .text_box {
+    width: 50%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .discover_art .text_box h2 {
+    font-size: 3.5em;
+    margin-top: 20%;
+  }
+  .discover_art .text_box p {
+    font-size: 1.1em;
+    font-weight: 400;
+    width: 35%;
+    margin: 0 auto;
+    padding: 6% 0;
+  }
+  .discover_art .text_box a {
+    height: 45px;
+    width: 180px;
+    display: block;
+    margin-top: 0;
+    color: #FFFCF5;
+    border-radius: 50px;
+    line-height: 45px;
+    font-size: 1.1em;
+  }
+  .discover_art .text_box a:hover {
+    border: 1px solid #36454f;
   }
 }
 
@@ -777,6 +936,40 @@ article.explanation .article_text a:hover {
   }
   .newsletterimg object {
     width: 100%;
+  }
+  .discover_art {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .discover_art .img_box {
+    width: 50%;
+    height: 100vh;
+  }
+  .discover_art .text_box h2 {
+    font-size: 3.5em;
+    margin-top: 20%;
+  }
+  .discover_art .text_box p {
+    font-size: 1.1em;
+    width: 35%;
+    margin: 0 auto;
+    padding: 10% 0;
+  }
+  .discover_art .text_box a {
+    height: 45px;
+    width: 180px;
+    display: block;
+    margin-top: 0;
+    color: #FFFCF5;
+    border-radius: 50px;
+    line-height: 45px;
+    font-size: 1.1em;
+  }
+  .discover_art .text_box a:hover {
+    border: 1px solid #36454f;
   }
 }
 /*# sourceMappingURL=frontpage.css.map */

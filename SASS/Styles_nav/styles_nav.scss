@@ -128,6 +128,136 @@ header {
      }
 }
 
+footer {
+     width: 100%;
+     font-family: 'poppins', sans-serif;
+     color: #FFFCF5;
+     background-color: #36454F;
+     padding: 5% 5%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
+.footerp1 {
+     display: flex;
+     width: 35%;
+     justify-content: space-between;
+}
+
+.footerp2 {
+     display: flex;
+     width: 55%;
+     justify-content: space-between;
+}
+
+.footer {
+     margin-right: 50px;
+     display: flex;
+     flex-direction: column;
+}
+
+.footer a {
+     text-decoration: none;
+     margin-top: 10px;
+     color: #fffcf5;
+     font-size: 14px;
+}
+
+footer h3 {
+
+     color: #fffcf5;
+}
+
+.biglogo {
+     width: 15em;
+}
+
+.followicons {
+     width: 200px;
+     justify-content: space-between;
+     margin: 20px 0px;
+     display: flex;
+     font-size: 18px;
+     color: #fffcf5;
+}
+
+.followicons i {
+     transition: 0.2s ease-in;
+     cursor: pointer;
+}
+
+footer {
+     width: 100%;
+     font-family: 'poppins', sans-serif;
+     color: #FFFCF5;
+     background-color: #36454F;
+     padding: 5% 5%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
+.footerp1 {
+     display: flex;
+     width: 35%;
+     justify-content: space-between;
+}
+
+.footerp2 {
+     display: flex;
+     width: 55%;
+     justify-content: space-between;
+}
+
+.footer {
+     margin-right: 50px;
+     display: flex;
+     flex-direction: column;
+}
+
+.footer a {
+     text-decoration: none;
+     margin-top: 10px;
+     color: #fffcf5;
+     font-size: 14px;
+}
+
+.biglogo {
+     width: 10em;
+}
+
+.followicons {
+     width: 200px;
+     justify-content: space-between;
+     margin: 20px 0px;
+     display: flex;
+     font-size: 18px;
+     color: #fffcf5;
+}
+
+.followicons i {
+     transition: 0.2s ease-in;
+     cursor: pointer;
+}
+
+footer {
+     display: block;
+}
+
+.footerp1 {
+     display: flex;
+     width: 100%;
+     justify-content: flex-start;
+     margin-bottom: 50px;
+}
+
+
+.footerp2 {
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+}
 
 
 @media screen and (min-width: 1024px) {
@@ -172,7 +302,7 @@ header {
 
                     p {
                          font-size: .8em;
-                         padding-left: 5px;
+                         padding-left: 10px;
                     }
                }
 
@@ -205,6 +335,7 @@ header {
                justify-content: space-around;
                margin-left: 25px;
 
+
                &>ul {
                     width: 100%;
                     height: 100%;
@@ -222,7 +353,35 @@ header {
                          height: 100%;
                          width: 100px;
                          line-height: 7vh;
-                         padding-left: 20px;
+                         text-align: center;
+                         margin: 0 25px;
+
+                         a {
+                              position: relative;
+
+                              &:hover::before {
+                                   opacity: 1;
+                                   content: "-";
+                                   font-family: active;
+                                   font-size: 50px;
+                                   position: absolute;
+                                   transform: translateY(-52.5%);
+                                   top: 50%;
+                                   left: -20px;
+                              }
+
+                              &:hover::after {
+                                   opacity: 1;
+                                   content: "-";
+                                   font-family: active;
+                                   font-size: 50px;
+                                   position: absolute;
+                                   transform: translateY(-52.5%);
+                                   top: 50%;
+                                   right: -20px;
+                              }
+                         }
+
 
 
 
@@ -232,9 +391,10 @@ header {
                     &>li:nth-of-type(3) {
                          background-color: $charcoal;
                          color: $beidge;
-                         align-self: flex-start;
                          line-height: 7vh;
+                         text-align: center;
                          transition: all .2s ease;
+
 
                          ul {
                               width: 150%;
@@ -245,31 +405,46 @@ header {
                               display: flex;
                               flex-direction: column;
                               justify-content: space-around;
-                              transform: translateX(-12.5%);
+                              align-items: center;
+                              transform: translateX(-25px);
                               opacity: 0;
-
                               transition: all .2s ease;
 
 
                               li {
                                    line-height: normal;
-                                   padding-left: 20px;
                                    width: 100%;
                                    color: $beidge;
                                    display: flex;
-                                   align-items: center;
+                                   justify-content: center;
+                                   padding: 0;
+                                   margin: 0;
 
-                                   &:hover {
-                                        background-color: $beidge;
-                                        color: $charcoal;
-                                   }
+                                   a {
+                                        position: relative;
 
-                                   &:hover {
-                                        a {
-                                             color: $charcoal;
+                                        &:hover::before {
+                                             opacity: 1;
+                                             content: "-";
+                                             font-family: active;
+                                             font-size: 50px;
+                                             position: absolute;
+                                             transform: translateY(-60%);
+                                             top: 50%;
+                                             left: -20px;
+                                        }
+
+                                        &:hover::after {
+                                             opacity: 1;
+                                             content: "-";
+                                             font-family: active;
+                                             font-size: 50px;
+                                             position: absolute;
+                                             transform: translateY(-60%);
+                                             top: 50%;
+                                             right: -20px;
                                         }
                                    }
-
 
                               }
                          }
@@ -287,6 +462,119 @@ header {
                display: none;
           }
 
+     }
+
+     footer {
+          width: 100%;
+          font-family: 'poppins', sans-serif;
+          color: #FFFCF5;
+          background-color: #36454F;
+          padding: 5% 5%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+     }
+
+     .footerp1 {
+          display: flex;
+          width: 35%;
+          justify-content: space-between;
+     }
+
+     .footerp2 {
+          display: flex;
+          width: 55%;
+          justify-content: space-between;
+     }
+
+     .footer {
+          margin-right: 50px;
+          display: flex;
+          flex-direction: column;
+     }
+
+     .footer a {
+          text-decoration: none;
+          margin-top: 10px;
+          color: #fffcf5;
+          font-size: 14px;
+     }
+
+     footer h3 {
+
+          color: #fffcf5;
+     }
+
+     .biglogo {
+          width: 15em;
+     }
+
+     .followicons {
+          width: 200px;
+          justify-content: space-between;
+          margin: 20px 0px;
+          display: flex;
+          font-size: 18px;
+          color: #fffcf5;
+     }
+
+     .followicons i {
+          transition: 0.2s ease-in;
+          cursor: pointer;
+     }
+
+     footer {
+          width: 100%;
+          font-family: 'poppins', sans-serif;
+          color: #FFFCF5;
+          background-color: #36454F;
+          padding: 5% 5%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+     }
+
+     .footerp1 {
+          display: flex;
+          width: 35%;
+          justify-content: space-between;
+     }
+
+     .footerp2 {
+          display: flex;
+          width: 55%;
+          justify-content: space-between;
+     }
+
+     .footer {
+          margin-right: 50px;
+          display: flex;
+          flex-direction: column;
+     }
+
+     .footer a {
+          text-decoration: none;
+          margin-top: 10px;
+          color: #fffcf5;
+          font-size: 14px;
+     }
+
+     .biglogo {
+          width: 10em;
+     }
+
+     .followicons {
+          width: 200px;
+          justify-content: space-between;
+          margin: 20px 0px;
+          display: flex;
+          font-size: 18px;
+          color: #fffcf5;
+     }
+
+     .followicons i {
+          transition: 0.2s ease-in;
+          cursor: pointer;
      }
 }
 
@@ -324,5 +612,64 @@ header {
                     }
                }
           }
+     }
+
+     footer {
+          width: 100%;
+          font-family: 'poppins', sans-serif;
+          color: #FFFCF5;
+          background-color: #36454F;
+          padding: 5% 5%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+     }
+
+     .footerp1 {
+          display: flex;
+          width: 35%;
+          justify-content: space-between;
+     }
+
+     .footerp2 {
+          display: flex;
+          width: 55%;
+          justify-content: space-between;
+     }
+
+     .footer {
+          margin-right: 50px;
+          display: flex;
+          flex-direction: column;
+     }
+
+     .footer a {
+          text-decoration: none;
+          margin-top: 10px;
+          color: #fffcf5;
+          font-size: 14px;
+     }
+
+     footer h3 {
+
+          color: #fffcf5;
+     }
+
+     .biglogo {
+          width: 15em;
+     }
+
+     .followicons {
+          width: 200px;
+          justify-content: space-between;
+          margin: 20px 0px;
+          display: flex;
+          font-size: 18px;
+          color: #fffcf5;
+     }
+
+     .followicons i {
+          transition: 0.2s ease-in;
+          cursor: pointer;
      }
 }

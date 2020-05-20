@@ -211,7 +211,7 @@ nav#discovernav {
         max-width: 95vw;
     }
 
-    #container{
+    #container {
         grid-template-rows: repeat(8, 40vh);
     }
 
