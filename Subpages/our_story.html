@@ -221,13 +221,13 @@
                     line_3.style.strokeDashoffset = pathLength_3;
                     window.addEventListener("scroll", function (e) {
                          const container_3 = document.querySelector('#third');
-                         var scrollPercentage_3 = (document.documentElement.scrollTop - 500) * 1.1 /
+                         var scrollPercentage_3 = (document.documentElement.scrollTop - 650) * 1.1 /
                               -
                               (
                                    container_3.scrollHeight - document.documentElement.clientHeight
                               );
                          var drawLength_3 = pathLength_3 * scrollPercentage_3;
-                         line_3.style.strokeDashoffset = (pathLength_3 + drawLength_3) / 2.5;
+                         line_3.style.strokeDashoffset = (pathLength_3 + drawLength_3) / 2;
                     });
                     console.log('In viewport');
                } else {
