@@ -9,6 +9,10 @@ body {
   background-color: #FFFCF5;
 }
 
+#wrapper {
+  overflow: hidden;
+}
+
 header {
   width: 100%;
   height: 7vh;
@@ -95,6 +99,7 @@ header #slider {
   -webkit-transition: right .5s ease;
   transition: right .5s ease;
   font-family: "Poppins", sans-serif;
+  padding-top: 15%;
 }
 
 header #slider a {
