@@ -340,6 +340,7 @@ article.explanation .article_text a:hover {
 .newsletter {
   position: relative;
   padding: 40px 15px;
+  background-color: #FFF3D5;
 }
 
 .newsletter input[type=text] {
@@ -401,6 +402,7 @@ article.explanation .article_text a:hover {
   display: flex;
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
+  background-color: #FFF3D5;
 }
 
 .discover_art .img_box {
