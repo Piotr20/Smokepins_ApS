@@ -301,13 +301,40 @@ article.explanation .article_text a:hover {
 #how_start .line_box_mobile > div.one {
   width: 100%;
   position: absolute;
-  top: 35vh;
+  top: 36vh;
   left: -12vw;
   display: block;
 }
 
 #how_start .line_box_mobile > div.one svg {
-  width: 90%;
+  width: 100%;
+  height: 35vh;
+}
+
+#how_start .line_box_mobile > div.two {
+  width: 100%;
+  position: absolute;
+  top: 110vh;
+  left: -1vw;
+  display: block;
+}
+
+#how_start .line_box_mobile > div.two svg {
+  width: 100%;
+  height: 50vh;
+}
+
+#how_start .line_box_mobile > div.three {
+  width: 100%;
+  position: absolute;
+  top: 199vh;
+  left: -1vw;
+  display: block;
+}
+
+#how_start .line_box_mobile > div.three svg {
+  width: 100%;
+  height: 50vh;
 }
 
 .newsletter {
@@ -440,6 +467,10 @@ article.explanation .article_text a:hover {
   background-color: #FFFCF5;
   color: #36454f;
   border: 1px solid #36454f;
+}
+
+#slideheader h2 {
+  font-size: 32px;
 }
 
 @media only screen and (min-width: 1024px) {
