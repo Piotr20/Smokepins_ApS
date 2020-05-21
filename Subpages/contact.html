@@ -28,6 +28,29 @@
                <a href=""><i class="fas fa-shopping-cart"></i></a>
                <nav>
                     <ul>
+                         <style>
+                              nav>ul>li:nth-of-type(4) a::after {
+                                   opacity: 1;
+                                   content: "-";
+                                   font-family: active;
+                                   font-size: 50px;
+                                   position: absolute;
+                                   transform: translateY(-52.5%);
+                                   top: 50%;
+                                   right: -20px;
+                              }
+
+                              nav>ul>li:nth-of-type(4) a::before {
+                                   opacity: 1;
+                                   content: "-";
+                                   font-family: active;
+                                   font-size: 50px;
+                                   position: absolute;
+                                   transform: translateY(-52.5%);
+                                   top: 50%;
+                                   left: -20px;
+                              }
+                         </style>
                          <li><a href="shop.html">Shop</a></li>
                          <li><a href="our_story.html">Our story</a></li>
                          <li><a href="discover.html">Discover</a>

@@ -288,7 +288,7 @@ article.explanation {
                &.one {
                     width: 100%;
                     position: absolute;
-                    top: 36vh;
+                    top: 38vh;
                     left: -12vw;
                     display: block;
 
@@ -752,17 +752,22 @@ article.explanation {
 
      .discover_art {
           width: 100%;
-          height: 100vh;
+          height: 80vh;
           display: flex;
 
           .img_box {
                width: 50%;
-               height: 100vh;
+               height: 80vh;
+
+               img {
+                    width: 100%;
+                    margin-top: 6%;
+               }
           }
 
           .text_box {
                width: 50%;
-               height: 100vh;
+               height: 80vh;
                display: flex;
                flex-direction: column;
                align-items: center;
@@ -770,7 +775,7 @@ article.explanation {
                h2 {
 
                     font-size: 3.5em;
-                    margin-top: 20%;
+                    margin-top: 15%;
                }
 
                p {
@@ -1084,18 +1089,18 @@ article.explanation {
 
      .discover_art {
           width: 100%;
-          height: 100vh;
+          height: 80vh;
           display: flex;
 
           .img_box {
                width: 50%;
-               height: 100vh;
+               height: 80vh;
           }
 
           .text_box {
                h2 {
                     font-size: 3.5em;
-                    margin-top: 20%;
+                    margin-top: 15%;
                }
 
                p {
