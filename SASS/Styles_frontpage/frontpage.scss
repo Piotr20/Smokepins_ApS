@@ -24,7 +24,11 @@ article.explanation {
      .placeholder {
           width: 100%;
           height: 50%;
-          background-color: $blue;
+
+          img {
+               width: 90%;
+               margin-left: 5%;
+          }
      }
 
      .article_text {
