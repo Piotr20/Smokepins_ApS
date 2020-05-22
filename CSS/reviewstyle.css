@@ -65,7 +65,7 @@ figure.testimonial img {
 }
 
 figure.testimonial blockquote {
-	background-color: #FFFCF5;
+	background-color: #fff3d5;
 	display: block;
 	font-size: 16px;
 	font-weight: 400;
@@ -103,7 +103,7 @@ figure.testimonial .btn {
 	height: 0;
 	border-left: 0 solid transparent;
 	border-right: 25px solid transparent;
-	border-top: 25px solid #FFFCF5;
+	border-top: 25px solid #FFF3d5;
 	margin: 0;
 	position: absolute;
 }

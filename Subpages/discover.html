@@ -192,52 +192,8 @@
 
           </div>
 
-          <!-- Grid Gallery function -->
-          <script src="../JS/scripts_nav.js">
-               $(document).ready(function () {
-                    $("#all").click(function () {
-                         $(".grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7").css('display',
-                              'block');
-                    });
-
-                    $("#guides").click(function () {
-                         $(".grid2, .grid3, .grid4").css('display', 'block');
-                         $(".grid6, .grid5, .grid1, .grid7").css('display', 'none');
-                    });
-
-                    $("#recipes").click(function () {
-                         $(".grid1, .grid5, .grid6").css('display', 'block');
-                         $(".grid3, .grid4, .grid2, .grid7").css('display', 'none');
-                    });
-
-                    $("#news").click(function () {
-                         $(".grid7").css('display', 'block');
-                         $(".grid3, .grid4, .grid5, .grid6, .grid1, .grid2").css('display', 'none');
-                    });
-               });
-          </script>
-
-          <script>
-               $("#all").click(function () {
-                    $("#all").addClass("current");
-                    $("#guides, #recipes, #news").removeClass("current");
-               })
-
-               $("#guides").click(function () {
-                    $("#guides").addClass("current");
-                    $("#all, #recipes, #news").removeClass("current");
-               })
-
-               $("#recipes").click(function () {
-                    $("#recipes").addClass("current");
-                    $("#all, #guides, #news").removeClass("current");
-               })
-
-               $("#news").click(function () {
-                    $("#news").addClass("current");
-                    $("#all, #guides, #recipes").removeClass("current");
-               });
-          </script>
+          
+          
 
           <!-- ========================== -->
           <!-- ========= Footer ========= -->
@@ -296,6 +252,55 @@
           </footer>
      </div>
      <script src="Js/scripts_nav.js"></script>
+     <script src="../JS/scripts_nav.js"></script>
+
+     
+
+     <script>
+          $(document).ready(function () {
+               $("#all").click(function () {
+                    $(".grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7").css('display',
+                         'block');
+               });
+
+               $("#guides").click(function () {
+                    $(".grid2, .grid3, .grid4").css('display', 'block');
+                    $(".grid6, .grid5, .grid1, .grid7").css('display', 'none');
+               });
+
+               $("#recipes").click(function () {
+                    $(".grid1, .grid5, .grid6").css('display', 'block');
+                    $(".grid3, .grid4, .grid2, .grid7").css('display', 'none');
+               });
+
+               $("#news").click(function () {
+                    $(".grid7").css('display', 'block');
+                    $(".grid3, .grid4, .grid5, .grid6, .grid1, .grid2").css('display', 'none');
+               });
+          });
+     </script>
+
+     <script>
+          $("#all").click(function () {
+               $("#all").addClass("current");
+               $("#guides, #recipes, #news").removeClass("current");
+          })
+
+          $("#guides").click(function () {
+               $("#guides").addClass("current");
+               $("#all, #recipes, #news").removeClass("current");
+          })
+
+          $("#recipes").click(function () {
+               $("#recipes").addClass("current");
+               $("#all, #guides, #news").removeClass("current");
+          })
+
+          $("#news").click(function () {
+               $("#news").addClass("current");
+               $("#all, #guides, #recipes").removeClass("current");
+          });
+     </script>
 </body>
 
 </html>
