@@ -157,9 +157,13 @@ footer {
 }
 
 .footer {
-     margin-right: 50px;
+     margin-right: 10px;
      display: flex;
      flex-direction: column;
+
+     &:nth-of-type(n) {
+          margin-right: 20px;
+     }
 }
 
 .footer a {
@@ -170,12 +174,12 @@ footer {
 }
 
 footer h3 {
-
+     font-size: 1em;
      color: #fffcf5;
 }
 
 .biglogo {
-     width: 5em;
+     width: 100%;
 }
 
 .followicons {
@@ -228,9 +232,6 @@ footer {
      font-size: 14px;
 }
 
-.biglogo {
-     width: 7em;
-}
 
 .followicons {
      width: 200px;
