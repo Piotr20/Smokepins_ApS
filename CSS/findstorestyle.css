@@ -21,42 +21,44 @@
 table {
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  th, td {
+}
+
+th,
+td {
     padding: 12px;
+    font-size: 12px;
     text-align: center;
     border-bottom: 1px solid #ddd;
     font-family: poppins;
-  }
+}
 
-#discoverhead{
-        width: 100%;
-        margin-top: 12vh;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        color: #36454F;
-        font-family: active;
-    }
+#discoverhead {
+    width: 100%;
+    margin-top: 12vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #36454F;
+    font-family: active;
+}
 
-    #discoverhead h1{
-        font-size: 50px;
-        font-weight: 500;
-    }
+#discoverhead h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
 
-    #discoverp {
-        width: 70%;
-        display: flex;
-        margin: 2vh 15%;
-        justify-content: center;
-        text-align: center;
-        color: #36454F;
-        font-family: poppins, sans-serif;
-    }
+#discoverp {
+    width: 70%;
+    display: flex;
+    margin: 2vh 15%;
+    justify-content: center;
+    text-align: center;
+    color: #36454F;
+    font-family: poppins, sans-serif;
+}
 
-    @media only screen and (max-width : 1024px) {
-        #map{
-            top: 40vh;
-        }
+@media only screen and (max-width : 1024px) {
+    #map {
+        top: 40vh;
     }
+}
