@@ -19,15 +19,17 @@
 
 article.explanation {
      width: 100%;
-     height: 100vh;
+     height: 90vh;
 
      .placeholder {
           width: 100%;
-          height: 50%;
+          height: 45%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
 
           img {
-               width: 90%;
-               margin-left: 5%;
+               width: 60%;
           }
      }
 
@@ -38,18 +40,19 @@ article.explanation {
 
           h2 {
                font-family: $active;
+               color: $charcoal;
                font-weight: 500;
                font-size: 2em;
-               margin-top: 5%;
           }
 
           p {
                font-family: $poppins;
                font-size: 12px;
-               font-weight: 600;
                width: 75%;
                margin: 0 auto;
                padding-top: 5%;
+               padding-bottom: 5%;
+               color: $charcoal;
           }
 
           a {
@@ -59,7 +62,6 @@ article.explanation {
                width: 100px;
                display: block;
                margin: 0 auto;
-               margin-top: 8%;
                color: $beidge;
                border-radius: 10px;
                line-height: 25px;
@@ -78,12 +80,13 @@ article.explanation {
 
 #icon_container {
      width: 100%;
-     height: 130vh;
+     height: 100vh;
      background-color: $yellow;
      padding-top: 5%;
 
      h2 {
           font-family: $active;
+          color: $charcoal;
           font-weight: 500;
           font-size: 2em;
           text-align: center;
@@ -92,7 +95,6 @@ article.explanation {
      .icon_wrapper {
           width: 100%;
           height: 75%;
-
           display: flex;
           justify-content: space-around;
           flex-wrap: wrap;
@@ -100,7 +102,7 @@ article.explanation {
 
           &>div {
                width: 40%;
-               height: 50%;
+               height: 53%;
                display: flex;
                flex-direction: column;
                align-items: center;
@@ -122,11 +124,17 @@ article.explanation {
                     }
                }
 
+               h3 {
+                    font-size: 1.02em;
+                    color: $charcoal;
+               }
+
                p {
                     padding-top: 10%;
                     width: 80%;
                     font-size: 12px;
                     text-align: center;
+                    color: $charcoal;
                }
 
           }
@@ -137,10 +145,11 @@ article.explanation {
 
 #how_start .How_to_start {
      width: 100%;
-     height: 40vh;
+     height: 30vh;
 
      h2 {
           font-family: $active;
+          color: $charcoal;
           font-weight: 500;
           font-size: 2em;
           text-align: center;
@@ -149,9 +158,10 @@ article.explanation {
 
      p {
           font-family: $poppins;
+          color: $charcoal;
           text-align: center;
           font-size: 12px;
-          font-weight: 600;
+          font-weight: 400;
           width: 75%;
           margin: 0 auto;
           padding-top: 7%;
@@ -187,7 +197,7 @@ article.explanation {
 
      .Steps {
           width: 100%;
-          height: 90vh;
+          height: 70vh;
           display: flex;
           padding-top: 45%;
           justify-content: space-around;
@@ -204,6 +214,8 @@ article.explanation {
           .img_container {
                width: 45%;
                height: 100%;
+               display: flex;
+               align-items: center;
 
                object {
                     width: 90%;
@@ -215,6 +227,7 @@ article.explanation {
 
           h3 {
                font-family: $active;
+               color: $charcoal;
                font-size: 1.5em;
                font-weight: 400;
                width: 90%;
@@ -223,6 +236,7 @@ article.explanation {
 
           p {
                font-family: $poppins;
+               color: $charcoal;
                font-size: .8em;
                padding: 15% 0;
                text-align: center;
@@ -275,65 +289,14 @@ article.explanation {
           display: none;
      }
 
-     .line_box_mobile {
-          position: absolute;
-          top: 0;
-          height: 100vh;
-          width: 100%;
 
-          &>div {
-               display: none;
-
-
-               &.one {
-                    width: 100%;
-                    position: absolute;
-                    top: 38vh;
-                    left: -12vw;
-                    display: block;
-
-                    svg {
-                         width: 100%;
-                         height: 35vh;
-
-                    }
-               }
-
-               &.two {
-                    width: 100%;
-                    position: absolute;
-                    top: 110vh;
-                    left: -1vw;
-                    display: block;
-
-                    svg {
-                         width: 100%;
-                         height: 50vh;
-
-                    }
-               }
-
-               &.three {
-                    width: 100%;
-                    position: absolute;
-                    top: 199vh;
-                    left: -1vw;
-                    display: block;
-
-                    svg {
-                         width: 100%;
-                         height: 50vh;
-
-                    }
-               }
-          }
-     }
 }
 
 .newsletter {
      position: relative;
      padding: 40px 15px;
      background-color: $yellow;
+     color: $charcoal;
 }
 
 .newsletter input[type=text] {
@@ -389,14 +352,14 @@ article.explanation {
 
 .discover_art {
      width: 100%;
-     height: 100vh;
+     height: 80vh;
      display: flex;
      flex-wrap: wrap-reverse;
      background-color: $yellow;
 
      .img_box {
           width: 100%;
-          height: 50vh;
+          height: 40vh;
           overflow: hidden;
 
           img {
@@ -406,7 +369,7 @@ article.explanation {
 
      .text_box {
           width: 100%;
-          height: 50vh;
+          height: 40vh;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -422,6 +385,7 @@ article.explanation {
 
           p {
                font-family: $poppins;
+               color: $charcoal;
                font-size: .8em;
                padding: 10% 0;
                text-align: center;
