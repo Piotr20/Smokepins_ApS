@@ -41,7 +41,7 @@ window.addEventListener('scroll', function () {
           line_2.style.strokeDashoffset = pathLength_2;
           window.addEventListener("scroll", function (e) {
                const container_2 = document.querySelector('#secend');
-               var scrollPercentage_2 = (document.documentElement.scrollTop + 420) / 2 / (container_2.scrollHeight - document.documentElement.clientHeight) + 300;
+               var scrollPercentage_2 = (document.documentElement.scrollTop + 420) / 1.969 / (container_2.scrollHeight - document.documentElement.clientHeight) + 300;
                var drawLength_2 = pathLength_2 * scrollPercentage_2;
                line_2.style.strokeDashoffset = pathLength_2 + drawLength_2;
 

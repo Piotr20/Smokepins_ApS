@@ -587,6 +587,15 @@ footer {
 }
 
 @media screen and (min-width: 1600px) {
+     header>a:nth-of-type(1) {
+          cursor: pointer;
+          width: 100px;
+
+          img {
+               width: 100%;
+          }
+     }
+
      nav {
           height: 100%;
           width: 600px;

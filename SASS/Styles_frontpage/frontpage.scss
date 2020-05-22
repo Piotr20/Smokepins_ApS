@@ -127,6 +127,7 @@ article.explanation {
                h3 {
                     font-size: 1.02em;
                     color: $charcoal;
+                    font-weight: 600;
                }
 
                p {
@@ -197,10 +198,14 @@ article.explanation {
 
      .Steps {
           width: 100%;
-          height: 60vh;
+          height: 70vh;
           display: flex;
           padding-top: 45%;
           justify-content: space-around;
+
+          &:nth-of-type(4) {
+               height: 80vh;
+          }
 
 
           .text {
@@ -354,7 +359,7 @@ article.explanation {
      width: 100%;
      height: 80vh;
      display: flex;
-     flex-wrap: wrap-reverse;
+     flex-wrap: wrap;
      background-color: $yellow;
 
      .img_box {
@@ -417,7 +422,7 @@ article.explanation {
      }
 }
 
-#slideheader h2 {
+.slideheader h2 {
      font-size: 32px;
 }
 
@@ -494,6 +499,7 @@ article.explanation {
 
                     h3 {
                          font-size: 1.7em;
+                         font-weight: 600;
                          color: $charcoal;
                          padding-top: 10%;
                     }
@@ -717,7 +723,7 @@ article.explanation {
           width: 100%;
      }
 
-     #slideheader {
+     .slideheader {
           h2 {
                font-size: 2.01em;
                font-weight: 500;
@@ -728,6 +734,7 @@ article.explanation {
           width: 100%;
           height: 80vh;
           display: flex;
+          flex-wrap: wrap;
 
           .img_box {
                width: 50%;
@@ -834,17 +841,17 @@ article.explanation {
 
           .icon_wrapper {
                width: 100%;
-               height: 70%;
+               height: 100%;
                margin-top: 0;
                display: flex;
                justify-content: space-around;
-               align-items: center;
+               align-items: flex-start;
 
 
                &>div {
                     width: 20%;
-                    height: 55%;
-                    margin-top: 5%;
+                    height: 45%;
+                    margin-top: 7%;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -852,6 +859,7 @@ article.explanation {
 
                     h3 {
                          font-size: 1.8em;
+                         font-weight: 600;
                          color: $charcoal;
                          padding-top: 10%;
                     }
@@ -994,11 +1002,12 @@ article.explanation {
           #first {
                opacity: 1;
                top: 41.5vh;
-               left: 37.5vw;
+               left: 38.5vw;
                height: 25vh;
 
                svg {
                     height: 100%;
+                    transform: scaleX(1);
                }
 
 
@@ -1007,11 +1016,12 @@ article.explanation {
           #secend {
                opacity: 1;
                top: 107vh;
-               left: 51vw;
+               left: 51.5vw;
                height: 50vh;
 
                svg {
                     height: 103%;
+                    transform: scaleX(1);
                }
 
 
@@ -1020,8 +1030,9 @@ article.explanation {
           #third {
                opacity: 1;
                top: 205vh;
-               left: 49vw;
+               left: 49.3vw;
                height: 50vh;
+
 
           }
 

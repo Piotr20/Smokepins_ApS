@@ -149,6 +149,7 @@ article.explanation .article_text a:hover {
 #icon_container .icon_wrapper > div h3 {
   font-size: 1.02em;
   color: #36454f;
+  font-weight: 600;
 }
 
 #icon_container .icon_wrapper > div p {
@@ -215,13 +216,17 @@ article.explanation .article_text a:hover {
 
 #how_start .Steps {
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-top: 45%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+#how_start .Steps:nth-of-type(4) {
+  height: 80vh;
 }
 
 #how_start .Steps .text {
@@ -376,8 +381,8 @@ article.explanation .article_text a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap-reverse;
-      flex-wrap: wrap-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background-color: #FFF3D5;
 }
 
@@ -448,7 +453,7 @@ article.explanation .article_text a:hover {
   border: 1px solid #36454f;
 }
 
-#slideheader h2 {
+.slideheader h2 {
   font-size: 32px;
 }
 
@@ -532,6 +537,7 @@ article.explanation .article_text a:hover {
   }
   #icon_container .icon_wrapper > div h3 {
     font-size: 1.7em;
+    font-weight: 600;
     color: #36454f;
     padding-top: 10%;
   }
@@ -714,7 +720,7 @@ article.explanation .article_text a:hover {
   .newsletterimg object {
     width: 100%;
   }
-  #slideheader h2 {
+  .slideheader h2 {
     font-size: 2.01em;
     font-weight: 500;
   }
@@ -724,6 +730,8 @@ article.explanation .article_text a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .discover_art .img_box {
     width: 50%;
@@ -822,21 +830,21 @@ article.explanation .article_text a:hover {
   }
   #icon_container .icon_wrapper {
     width: 100%;
-    height: 70%;
+    height: 100%;
     margin-top: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   #icon_container .icon_wrapper > div {
     width: 20%;
-    height: 55%;
-    margin-top: 5%;
+    height: 45%;
+    margin-top: 7%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -851,6 +859,7 @@ article.explanation .article_text a:hover {
   }
   #icon_container .icon_wrapper > div h3 {
     font-size: 1.8em;
+    font-weight: 600;
     color: #36454f;
     padding-top: 10%;
   }
@@ -959,25 +968,29 @@ article.explanation .article_text a:hover {
   #how_start #first {
     opacity: 1;
     top: 41.5vh;
-    left: 37.5vw;
+    left: 38.5vw;
     height: 25vh;
   }
   #how_start #first svg {
     height: 100%;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
   }
   #how_start #secend {
     opacity: 1;
     top: 107vh;
-    left: 51vw;
+    left: 51.5vw;
     height: 50vh;
   }
   #how_start #secend svg {
     height: 103%;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
   }
   #how_start #third {
     opacity: 1;
     top: 205vh;
-    left: 49vw;
+    left: 49.3vw;
     height: 50vh;
   }
   .newsletter input[type=text] {
