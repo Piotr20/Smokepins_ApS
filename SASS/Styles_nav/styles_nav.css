@@ -38,7 +38,7 @@ header > a:nth-of-type(1) {
 }
 
 header > a:nth-of-type(1) img {
-  width: 95%;
+  width: 80%;
 }
 
 header > a:nth-of-type(2) {
@@ -168,7 +168,7 @@ footer {
 }
 
 .footer {
-  margin-right: 50px;
+  margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -176,6 +176,10 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.footer:nth-of-type(n) {
+  margin-right: 20px;
 }
 
 .footer a {
@@ -186,11 +190,12 @@ footer {
 }
 
 footer h3 {
+  font-size: 1em;
   color: #fffcf5;
 }
 
 .biglogo {
-  width: 5em;
+  width: 100%;
 }
 
 .followicons {
@@ -264,10 +269,6 @@ footer {
   margin-top: 10px;
   color: #fffcf5;
   font-size: 14px;
-}
-
-.biglogo {
-  width: 7em;
 }
 
 .followicons {
