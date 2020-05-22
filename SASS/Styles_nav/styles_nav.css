@@ -196,6 +196,7 @@ footer h3 {
 
 .biglogo {
   width: 100%;
+  margin-top: 28px;
 }
 
 .followicons {
@@ -566,6 +567,7 @@ footer {
   }
   .biglogo {
     width: 15em;
+    margin-top: 0;
   }
   .followicons {
     width: 200px;

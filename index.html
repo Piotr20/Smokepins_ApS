@@ -21,6 +21,9 @@
 </head>
 
 <body>
+     <script src="lazysizes.min.js" async></script>
+     <!-- Images End -->
+
      <div id="wrapper">
           <header>
                <span> <i class="fas fa-bars"></i>
@@ -74,7 +77,7 @@
           </section>
           <article class="explanation">
                <div class="placeholder">
-                    <img src="Media/Images/happyole3.jpg" alt="Close up of owner of company Ole">
+                    <img src="Media/Images/happyole3.jpg" class="lazyload" alt="Close up of owner of company Ole">
                </div>
                <div class="article_text">
                     <h2>-&nbsp; What are Smokepins? &nbsp;-</h2>
@@ -90,7 +93,7 @@
                <div class="icon_wrapper">
                     <div>
                          <div>
-                              <object type="image/svg+xml" data="Media/Icons/HANDMADE_ICON.svg">
+                              <object type="image/svg+xml" data="Media/Icons/HANDMADE_ICON.svg" class="lazyload">
                               </object>
                          </div>
                          <h3>Hand-made</h3>
@@ -99,7 +102,7 @@
                     </div>
                     <div>
                          <div>
-                              <object type="image/svg+xml" data="Media/Icons/BAGPACK_ICON.svg">
+                              <object type="image/svg+xml" data="Media/Icons/BAGPACK_ICON.svg" class="lazyload">
                               </object>
                          </div>
                          <h3>Transportable</h3>
@@ -107,7 +110,7 @@
                     </div>
                     <div>
                          <div>
-                              <object type="image/svg+xml" data="Media/Icons/CONVENIENT_ICON.svg">
+                              <object type="image/svg+xml" data="Media/Icons/CONVENIENT_ICON.svg" class="lazyload">
                               </object>
                          </div>
                          <h3>Convenient</h3>
@@ -115,7 +118,7 @@
                     </div>
                     <div>
                          <div>
-                              <object type="image/svg+xml" data="Media/Icons/SERVING_PLATTER_ICON.svg">
+                              <object type="image/svg+xml" data="Media/Icons/SERVING_PLATTER_ICON.svg" class="lazyload">
                               </object>
                          </div>
                          <h3>Authentic taste</h3>
@@ -138,14 +141,14 @@
                          <a href="./Subpages/discover.html">RECIPES</a>
                     </div>
                     <div class="img_container">
-                         <object type="image/svg+xml" data="Media/Icons/STEP_1.svg">
+                         <object type="image/svg+xml" data="Media/Icons/STEP_1.svg" class="lazyload">
                          </object>
                     </div>
                </div>
                <div class="Steps">
 
                     <div class="img_container">
-                         <object type="image/svg+xml" data="Media/Icons/STEP_2_F1.svg">
+                         <object type="image/svg+xml" data="Media/Icons/STEP_2_F1.svg" class="lazyload">
                          </object>
                     </div>
                     <div class="text">
@@ -164,12 +167,12 @@
                          <a href="./Subpages/instructions.html">Instructions</a>
                     </div>
                     <div class="img_container">
-                         <object type="image/svg+xml" data="Media/Icons/STEP_3_F1.svg">
+                         <object type="image/svg+xml" data="Media/Icons/STEP_3_F1.svg" class="lazyload">
                          </object>
                     </div>
                </div>
                <div class="line_box " id="first">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="489.464" height="234.154"
+                    <svg class="lazyload" xmlns="http://www.w3.org/2000/svg" width="489.464" height="234.154"
                          viewBox="0 0 489.464 234.154">
                          <path id="Path_336" data-name="Path 336"
                               d="M.378,208.1s-10.478-62.551,78.835-79.35,209.145,23.575,306.966-8.611S470.5,0,470.5,0"
@@ -179,7 +182,7 @@
 
                </div>
                <div class="line_box " id="secend">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1005.465" height="511.522"
+                    <svg class="lazyload" xmlns="http://www.w3.org/2000/svg" width="1005.465" height="511.522"
                          viewBox="0 0 1005.465 511.522">
                          <path id="Path_327" data-name="Path 327"
                               d="M.783,0S-20.893,138.131,163.87,175.228s432.659-52.061,635.022,19.016,174.43,265.29,174.43,265.29"
@@ -189,7 +192,7 @@
 
                </div>
                <div class="line_box" id="third">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="969.744" height="445.804"
+                    <svg class="lazyload" xmlns="http://www.w3.org/2000/svg" width="969.744" height="445.804"
                          viewBox="0 0 969.744 445.804">
                          <path id="Path_326" data-name="Path 326"
                               d="M.757,395.28S-20.2,276.463,158.421,244.553,576.693,289.335,772.327,228.2,940.957,0,940.957,0"
@@ -208,7 +211,7 @@
                     <a href="Subpages/discover.html">Learn more</a>
                </div>
                <div class="img_box">
-                    <img src="Media/Images/story2.png" alt="Image of turist walking from the back">
+                    <img src="Media/Images/story2.png" class="lazyload" alt="Image of turist walking from the back">
                </div>
           </article>
           <div id="slide_wrapper">
@@ -363,6 +366,7 @@
                </div>
           </footer>
      </div>
+
      <!-- importing js for navigation -->
      <script src="Js/scripts_nav.js"></script>
      <!-- importing js for drawing line animaton -->

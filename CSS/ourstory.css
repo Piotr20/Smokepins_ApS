@@ -394,6 +394,7 @@ footer h3 {
      .storyimg1 {
           align-self: flex-end;
           width: 90%;
+          margin-top: 0;
      }
 
      .p1text {
@@ -407,6 +408,7 @@ footer h3 {
 
      .storyp2 {
           width: 100%;
+          height: 115vh;
           padding-right: 0;
           margin-top: 0;
           display: flex;
@@ -431,14 +433,15 @@ footer h3 {
 
      .storyimg2 {
           margin-left: 0;
-          width: 80%;
-          margin-top: 0;
+          width: 95%;
+          margin-top: 5vh;
      }
 
      .storyp3 {
           overflow-x: hidden;
           width: 100%;
           padding-left: 0;
+          height: 105vh;
           margin-top: 0;
           flex-direction: column-reverse;
      }
@@ -450,7 +453,7 @@ footer h3 {
      .storyimg3 {
           margin-right: 0;
           width: 80%;
-          margin-top: 0;
+          margin-top: 5%;
      }
 
      footer {
@@ -475,5 +478,10 @@ footer h3 {
           font-family: active;
           font-size: 2.5em;
           font-weight: 500;
+     }
+
+     .biglogo {
+          width: 5em;
+
      }
 }

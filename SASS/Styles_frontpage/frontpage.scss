@@ -433,10 +433,13 @@ article.explanation {
           .article_text {
                width: 50%;
                height: 100%;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
 
                h2 {
                     font-size: 3.5em;
-                    margin-top: 10%;
+
                }
 
                p {
@@ -445,6 +448,7 @@ article.explanation {
                     width: 70%;
                     margin: 0 auto;
                     padding-top: 5%;
+                    padding: 5%;
                }
 
                a {
@@ -452,7 +456,6 @@ article.explanation {
                     height: 45px;
                     width: 180px;
                     display: block;
-                    margin-top: 15%;
                     color: $beidge;
                     border-radius: 50px;
                     line-height: 45px;
@@ -482,8 +485,8 @@ article.explanation {
 
                &>div {
                     width: 20%;
-                    height: 20%;
-                    margin-top: 15%;
+                    height: 100%;
+                    margin-top: 7.5%;
                     padding-top: 3%;
                     display: flex;
                     flex-direction: column;
@@ -512,6 +515,8 @@ article.explanation {
 
 
           .How_to_start {
+               height: 40vh;
+
                h2 {
 
                     font-size: 3.5em;
@@ -628,9 +633,13 @@ article.explanation {
           #first {
                opacity: 1;
                top: 46vh;
-               left: 41vw;
+               left: 39vw;
                height: 25vh;
 
+               svg {
+                    height: 80%;
+                    transform: scaleX(1.15);
+               }
 
 
           }
@@ -638,11 +647,12 @@ article.explanation {
           #secend {
                opacity: 1;
                top: 111vh;
-               left: 49vw;
+               left: 50.5vw;
                height: 52vh;
 
                svg {
                     height: 90%;
+                    transform: scaleX(1.07);
                }
 
 
@@ -722,9 +732,11 @@ article.explanation {
           .img_box {
                width: 50%;
                height: 80vh;
+               display: flex;
+               align-items: center;
 
                img {
-                    width: 100%;
+                    width: 80%;
                     margin-top: 6%;
                }
           }

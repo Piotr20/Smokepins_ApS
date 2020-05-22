@@ -12,8 +12,8 @@ window.addEventListener('scroll', function () {
           line_1.style.strokeDashoffset = pathLength_1;
           window.addEventListener("scroll", function (e) {
                const container_1 = document.querySelector('#first');
-               var scrollPercentage_1 = (document.documentElement.scrollTop + 120) / -(container_1.scrollHeight - document.documentElement.clientHeight) + 300;
-               var drawLength_1 = pathLength_1 * scrollPercentage_1;
+               var scrollPercentage_1 = (document.documentElement.scrollTop + 320) / -(container_1.scrollHeight - document.documentElement.clientHeight) + 300;
+               var drawLength_1 = pathLength_1 * scrollPercentage_1 * 1.0002;
                line_1.style.strokeDashoffset = pathLength_1 + drawLength_1;
 
           });
@@ -41,7 +41,7 @@ window.addEventListener('scroll', function () {
           line_2.style.strokeDashoffset = pathLength_2;
           window.addEventListener("scroll", function (e) {
                const container_2 = document.querySelector('#secend');
-               var scrollPercentage_2 = (document.documentElement.scrollTop + 120) / 2 / (container_2.scrollHeight - document.documentElement.clientHeight) + 300;
+               var scrollPercentage_2 = (document.documentElement.scrollTop + 420) / 2 / (container_2.scrollHeight - document.documentElement.clientHeight) + 300;
                var drawLength_2 = pathLength_2 * scrollPercentage_2;
                line_2.style.strokeDashoffset = pathLength_2 + drawLength_2;
 
@@ -67,7 +67,7 @@ window.addEventListener('scroll', function () {
           line_3.style.strokeDashoffset = pathLength_3;
           window.addEventListener("scroll", function (e) {
                const container_3 = document.querySelector('#third');
-               var scrollPercentage_3 = (document.documentElement.scrollTop) / -(container_3.scrollHeight - document.documentElement.clientHeight);
+               var scrollPercentage_3 = (document.documentElement.scrollTop + 320) / -(container_3.scrollHeight - document.documentElement.clientHeight);
                var drawLength_3 = pathLength_3 * scrollPercentage_3;
                line_3.style.strokeDashoffset = (pathLength_3 + drawLength_3) / 1.5;
 

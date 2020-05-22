@@ -465,10 +465,19 @@ article.explanation .article_text a:hover {
   article.explanation .article_text {
     width: 50%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   article.explanation .article_text h2 {
     font-size: 3.5em;
-    margin-top: 10%;
   }
   article.explanation .article_text p {
     font-size: 1.1em;
@@ -476,12 +485,12 @@ article.explanation .article_text a:hover {
     width: 70%;
     margin: 0 auto;
     padding-top: 5%;
+    padding: 5%;
   }
   article.explanation .article_text a {
     height: 45px;
     width: 180px;
     display: block;
-    margin-top: 15%;
     color: #FFFCF5;
     border-radius: 50px;
     line-height: 45px;
@@ -507,8 +516,8 @@ article.explanation .article_text a:hover {
   }
   #icon_container .icon_wrapper > div {
     width: 20%;
-    height: 20%;
-    margin-top: 15%;
+    height: 100%;
+    margin-top: 7.5%;
     padding-top: 3%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -529,6 +538,9 @@ article.explanation .article_text a:hover {
   #icon_container .icon_wrapper > div p {
     font-size: .9em;
     color: #36454f;
+  }
+  #how_start .How_to_start {
+    height: 40vh;
   }
   #how_start .How_to_start h2 {
     font-size: 3.5em;
@@ -634,17 +646,24 @@ article.explanation .article_text a:hover {
   #how_start #first {
     opacity: 1;
     top: 46vh;
-    left: 41vw;
+    left: 39vw;
     height: 25vh;
+  }
+  #how_start #first svg {
+    height: 80%;
+    -webkit-transform: scaleX(1.15);
+            transform: scaleX(1.15);
   }
   #how_start #secend {
     opacity: 1;
     top: 111vh;
-    left: 49vw;
+    left: 50.5vw;
     height: 52vh;
   }
   #how_start #secend svg {
     height: 90%;
+    -webkit-transform: scaleX(1.07);
+            transform: scaleX(1.07);
   }
   #how_start #third {
     opacity: 1;
@@ -709,9 +728,15 @@ article.explanation .article_text a:hover {
   .discover_art .img_box {
     width: 50%;
     height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .discover_art .img_box img {
-    width: 100%;
+    width: 80%;
     margin-top: 6%;
   }
   .discover_art .text_box {
