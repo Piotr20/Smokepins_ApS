@@ -147,7 +147,7 @@ article.explanation .article_text a:hover {
 }
 
 #icon_container .icon_wrapper > div h3 {
-  font-size: 1.02em;
+  font-size: 4.5vw;
   color: #36454f;
   font-weight: 600;
 }
@@ -216,11 +216,11 @@ article.explanation .article_text a:hover {
 
 #how_start .Steps {
   width: 100%;
-  height: 70vh;
+  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 45%;
+  padding-top: 50px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -536,7 +536,7 @@ article.explanation .article_text a:hover {
             align-items: center;
   }
   #icon_container .icon_wrapper > div h3 {
-    font-size: 1.7em;
+    font-size: 1.7vw;
     font-weight: 600;
     color: #36454f;
     padding-top: 10%;
