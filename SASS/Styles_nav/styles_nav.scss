@@ -212,6 +212,11 @@ footer {
      display: flex;
      width: 35%;
      justify-content: space-between;
+
+     a i {
+          text-decoration: none;
+          color: $beidge;
+     }
 }
 
 .footerp2 {

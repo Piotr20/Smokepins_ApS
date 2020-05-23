@@ -244,6 +244,11 @@ footer {
           justify-content: space-between;
 }
 
+.footerp1 a i {
+  text-decoration: none;
+  color: #FFFCF5;
+}
+
 .footerp2 {
   display: -webkit-box;
   display: -ms-flexbox;
