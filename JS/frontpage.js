@@ -31,19 +31,27 @@ window.addEventListener('scroll', function () {
 window.addEventListener('scroll', function () {
      const secend = document.querySelector('#secend');
      const sectionBonding_secend = secend.getBoundingClientRect();
+
+     //Selecting the cerain div and bonding of that div
      if (
           sectionBonding_secend.top <= 1000 &&
           sectionBonding_secend.top >= -400
+
+          //specifying where the code should work 
      ) {
           const line_2 = document.querySelector('#secend svg path');
           let pathLength_2 = line_2.getTotalLength();
           line_2.style.strokeDasharray = pathLength_2 + ' ' + pathLength_2;
+          //Selecting the svg ,taking it's length and making it disappear so it can draw from nothing
           line_2.style.strokeDashoffset = pathLength_2;
           window.addEventListener("scroll", function (e) {
                const container_2 = document.querySelector('#secend');
-               var scrollPercentage_2 = (document.documentElement.scrollTop + 420) / 1.969 / (container_2.scrollHeight - document.documentElement.clientHeight) + 300;
+               var scrollPercentage_2 = (document.documentElement.scrollTop + 420) / 1.969 /
+                    (container_2.scrollHeight - document.documentElement.clientHeight) + 300;
                var drawLength_2 = pathLength_2 * scrollPercentage_2;
                line_2.style.strokeDashoffset = pathLength_2 + drawLength_2;
+               //The function that makes the drawing, function is counting the scroll position, 
+               distance and height and dinamicly changing the lenght and ofset of the svg
 
           });
           console.log('In viewport');
