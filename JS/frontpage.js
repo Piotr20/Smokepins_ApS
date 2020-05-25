@@ -51,7 +51,7 @@ window.addEventListener('scroll', function () {
                var drawLength_2 = pathLength_2 * scrollPercentage_2;
                line_2.style.strokeDashoffset = pathLength_2 + drawLength_2;
                //The function that makes the drawing, function is counting the scroll position, 
-               distance and height and dinamicly changing the lenght and ofset of the svg
+               // distance and height and dinamicly changing the lenght and ofset of the svg
 
           });
           console.log('In viewport');
